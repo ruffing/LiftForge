@@ -8,6 +8,7 @@
   const backBtn = document.getElementById("back-btn");
   const main = document.getElementById("app-main");
   const cycleSelect = document.getElementById("cycle-select");
+  const exportBtn = document.getElementById("export-btn");
 
   const tplWeekItem = document.getElementById("tpl-week-list-item");
   const tplDayCard = document.getElementById("tpl-day-card");
@@ -101,6 +102,33 @@
     saveStore();
     render();
   });
+
+  async function exportLogs() {
+    const payload = JSON.stringify(store, null, 2);
+    const filename = `liftlog-export-${new Date().toISOString().slice(0, 10)}.json`;
+    const file = new File([payload], filename, { type: "application/json" });
+
+    if (navigator.canShare && navigator.canShare({ files: [file] })) {
+      try {
+        await navigator.share({ files: [file], title: filename });
+        return;
+      } catch (err) {
+        if (err && err.name === "AbortError") return;
+        console.warn("Share failed, falling back to download.", err);
+      }
+    }
+
+    const url = URL.createObjectURL(file);
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = filename;
+    document.body.appendChild(link);
+    link.click();
+    link.remove();
+    URL.revokeObjectURL(url);
+  }
+
+  exportBtn.addEventListener("click", exportLogs);
 
   backBtn.addEventListener("click", () => {
     if (nav.view === "exercises") {
