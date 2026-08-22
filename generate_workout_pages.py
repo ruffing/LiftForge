@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import argparse
 import html
+import json
 import re
 from pathlib import Path
 from typing import Any
@@ -92,6 +93,33 @@ def infer_set_count(target: str) -> int:
     return 1
 
 
+def build_workout_data(weeks: list[dict[str, Any]], document_title: str) -> dict[str, Any]:
+    """Build the JSON-serializable structure consumed by the PWA."""
+    return {
+        "title": document_title,
+        "weeks": [
+            {
+                "number": week["number"],
+                "days": [
+                    {
+                        "name": day["name"],
+                        "exercises": [
+                            {
+                                "name": exercise["name"],
+                                "target": exercise["target"],
+                                "sets": infer_set_count(exercise["target"]),
+                            }
+                            for exercise in day["exercises"]
+                        ],
+                    }
+                    for day in week["days"]
+                ],
+            }
+            for week in weeks
+        ],
+    }
+
+
 def render_html(weeks: list[dict[str, Any]], cycles: int, document_title: str) -> str:
     """Render parsed workout data to print-optimized HTML."""
     escaped_title = html.escape(document_title)
@@ -139,13 +167,12 @@ def render_html(weeks: list[dict[str, Any]], cycles: int, document_title: str) -
         "      font-size: 12px;",
         "    }",
         "    .date-cell { border-bottom: 1px dotted #777; padding-bottom: 2px; white-space: nowrap; }",
-        "    table { width: 100%; border-collapse: collapse; table-layout: fixed; }",
+        "    table { width: 92%; margin: 0 auto; border-collapse: collapse; table-layout: fixed; }",
         "    th, td { border: 1px solid #8f8f8f; padding: 6px 6px; font-size: 11px; vertical-align: top; }",
         "    th { background: #efefef; text-align: left; }",
-        "    .exercise-col { width: 28%; }",
-        "    .set-col { width: 6%; }",
-        "    .target-col { width: 12%; }",
-        "    .weight-col, .reps-col { width: " + f"{(54 / (cycles * 2)):.2f}" + "%; }",
+        "    .exercise-col { width: 42%; }",
+        "    .target-col { width: 18%; }",
+        "    .weight-col { width: " + f"{(40 / cycles):.2f}" + "%; }",
         "    .log-cell { height: 24px; }",
         "    .notes-grid {",
         "      display: grid;",
@@ -176,7 +203,7 @@ def render_html(weeks: list[dict[str, Any]], cycles: int, document_title: str) -
                 "  <section class=\"week-page\">",
                 "    <header class=\"page-header\">",
                 f"      <h1 class=\"week-title\">Week {week_number} Workout Log</h1>",
-                "      <p class=\"week-subtitle\">Record date, weight x reps, and notes each time you repeat this week.</p>",
+                "      <p class=\"week-subtitle\">Record date, reps, weight, and notes each time you repeat this week.</p>",
                 "    </header>",
             ]
         )
@@ -197,20 +224,11 @@ def render_html(weeks: list[dict[str, Any]], cycles: int, document_title: str) -
             html_parts.append("        <thead>")
             html_parts.append("          <tr>")
             html_parts.append("            <th class=\"exercise-col\">Exercise</th>")
-            html_parts.append("            <th class=\"set-col\">Set</th>")
             html_parts.append("            <th class=\"target-col\">Target</th>")
             for cycle_index in range(1, cycles + 1):
                 html_parts.append(
-                    f"            <th colspan=\"2\">Cycle {cycle_index}</th>"
+                    f"            <th class=\"weight-col\">Cycle {cycle_index} Weight</th>"
                 )
-            html_parts.append("          </tr>")
-            html_parts.append("          <tr>")
-            html_parts.append("            <th class=\"exercise-col\"></th>")
-            html_parts.append("            <th class=\"set-col\"></th>")
-            html_parts.append("            <th class=\"target-col\"></th>")
-            for _ in range(cycles):
-                html_parts.append("            <th class=\"weight-col\">Weight</th>")
-                html_parts.append("            <th class=\"reps-col\">Reps</th>")
             html_parts.append("          </tr>")
             html_parts.append("        </thead>")
             html_parts.append("        <tbody>")
@@ -225,13 +243,11 @@ def render_html(weeks: list[dict[str, Any]], cycles: int, document_title: str) -
                         html_parts.append(
                             f"            <td rowspan=\"{set_count}\">{exercise_name}</td>"
                         )
-                    html_parts.append(f"            <td>S{set_index}</td>")
                     if set_index == 1:
                         html_parts.append(
                             f"            <td rowspan=\"{set_count}\">{exercise_target}</td>"
                         )
                     for _ in range(cycles):
-                        html_parts.append("            <td class=\"log-cell\"></td>")
                         html_parts.append("            <td class=\"log-cell\"></td>")
                     html_parts.append("          </tr>")
 
@@ -276,13 +292,18 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--cycles",
         type=int,
-        default=2,
-        help="How many repeat cycle sections to include per week page (default: 2)",
+        default=3,
+        help="How many repeat cycle sections to include per week page (default: 3)",
     )
     parser.add_argument(
         "--title",
         default="Workout Log Pages",
         help="Title for generated HTML document",
+    )
+    parser.add_argument(
+        "--json-output",
+        default="docs/workout.json",
+        help="Path to output JSON data file for the PWA (default: docs/workout.json)",
     )
     return parser.parse_args()
 
@@ -307,9 +328,15 @@ def main() -> None:
     rendered = render_html(weeks=weeks, cycles=args.cycles, document_title=args.title)
     output_path.write_text(rendered, encoding="utf-8")
 
+    json_path = Path(args.json_output)
+    json_path.parent.mkdir(parents=True, exist_ok=True)
+    workout_data = build_workout_data(weeks=weeks, document_title=args.title)
+    json_path.write_text(json.dumps(workout_data, indent=2), encoding="utf-8")
+
     print(
         f"Generated {output_path} with {len(weeks)} week pages and {args.cycles} cycle columns each."
     )
+    print(f"Generated {json_path} with {len(weeks)} weeks for the PWA.")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0f766e">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Lift Log">
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="icons/icon-180.png">
+  <link rel="icon" href="icons/icon-192.png">
+  <title>Lift Log</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header id="app-header">
+    <button id="back-btn" class="icon-btn" hidden aria-label="Back">&larr;</button>
+    <h1 id="header-title">Lift Log</h1>
+    <div id="cycle-picker">
+      <label for="cycle-select">Cycle</label>
+      <select id="cycle-select"></select>
+    </div>
+  </header>
+
+  <main id="app-main"></main>
+
+  <template id="tpl-week-list-item">
+    <li class="week-item">
+      <button class="week-btn">
+        <span class="week-name"></span>
+        <span class="week-progress"></span>
+      </button>
+    </li>
+  </template>
+
+  <template id="tpl-day-card">
+    <li class="day-item">
+      <button class="day-btn">
+        <span class="day-name"></span>
+        <span class="day-progress"></span>
+      </button>
+    </li>
+  </template>
+
+  <template id="tpl-exercise">
+    <li class="exercise-card">
+      <div class="exercise-head">
+        <span class="exercise-name"></span>
+        <span class="exercise-target"></span>
+      </div>
+      <div class="set-rows"></div>
+    </li>
+  </template>
+
+  <template id="tpl-set-row">
+    <div class="set-row">
+      <span class="set-index"></span>
+      <input type="number" inputmode="decimal" class="set-weight" placeholder="lbs">
+      <input type="number" inputmode="numeric" class="set-reps" placeholder="reps">
+      <button class="set-done" aria-label="Mark set done">&#10003;</button>
+    </div>
+  </template>
+
+  <script src="app.js"></script>
+</body>
+</html>

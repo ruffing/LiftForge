@@ -1,0 +1,825 @@
+{
+  "title": "8-Week Lift Log",
+  "weeks": [
+    {
+      "number": 1,
+      "days": [
+        {
+          "name": "Monday \u2014 Legs",
+          "exercises": [
+            {
+              "name": "wwww Barbell squats (high trap bar)",
+              "target": "3x12",
+              "sets": 3
+            },
+            {
+              "name": "Leg press (low foot placement)",
+              "target": "2x15",
+              "sets": 2
+            },
+            {
+              "name": "Deadlift with dumbbells (pause for 1 sec at the bottom)",
+              "target": "3x8",
+              "sets": 3
+            },
+            {
+              "name": "Single-leg squats (with or without support)",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Jumping jacks to maximum height (jump as high as possible)",
+              "target": "4x10",
+              "sets": 4
+            }
+          ]
+        },
+        {
+          "name": "Wednesday \u2014 Chest, Biceps, Shoulders",
+          "exercises": [
+            {
+              "name": "Bench press with 2 sec pause at the bottom",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Dips (with or without additional weight)",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Incline dumbbell press (45\u00b0)",
+              "target": "3x8",
+              "sets": 3
+            },
+            {
+              "name": "Prayer bench press",
+              "target": "3x15",
+              "sets": 3
+            },
+            {
+              "name": "Hammer curls",
+              "target": "3x8",
+              "sets": 3
+            },
+            {
+              "name": "Dumbbell curls with supination on incline bench (45\u00b0)",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Standing arm swings",
+              "target": "2x20",
+              "sets": 2
+            }
+          ]
+        },
+        {
+          "name": "Friday \u2014 Back, Triceps",
+          "exercises": [
+            {
+              "name": "Deadlift (sumo or conventional, whichever is more comfortable)",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Bent-over barbell row",
+              "target": "2x10",
+              "sets": 2
+            },
+            {
+              "name": "Wide-grip lat pulldown",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Dumbbell rows on bench",
+              "target": "3x12",
+              "sets": 3
+            },
+            {
+              "name": "Dumbbell shrugs",
+              "target": "3x12",
+              "sets": 3
+            },
+            {
+              "name": "Triceps extensions with cable machine",
+              "target": "3x12",
+              "sets": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "days": [
+        {
+          "name": "Monday \u2014 Legs, Shoulders",
+          "exercises": [
+            {
+              "name": "Barbell squats",
+              "target": "2x8",
+              "sets": 2
+            },
+            {
+              "name": "Barbell squats with pause at the bottom",
+              "target": "2x7",
+              "sets": 2
+            },
+            {
+              "name": "Leg press with wide and high stance",
+              "target": "4x12",
+              "sets": 4
+            },
+            {
+              "name": "Walking lunges with dumbbells for each leg",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Seated dumbbell lateral raises",
+              "target": "3x15",
+              "sets": 3
+            },
+            {
+              "name": "Standing barbell shoulder press",
+              "target": "3x8",
+              "sets": 3
+            }
+          ]
+        },
+        {
+          "name": "Wednesday \u2014 Chest, Triceps",
+          "exercises": [
+            {
+              "name": "Incline bench press (30\u00b0)",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Dumbbell bench press",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Cable crossovers",
+              "target": "3x12",
+              "sets": 3
+            },
+            {
+              "name": "Close-grip bench press",
+              "target": "3x8",
+              "sets": 3
+            },
+            {
+              "name": "Seated dumbbell front raises",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Max push-ups",
+              "target": "1 set",
+              "sets": 1
+            }
+          ]
+        },
+        {
+          "name": "Friday \u2014 Back, Biceps",
+          "exercises": [
+            {
+              "name": "Box deadlift (3\u20135 cm height)",
+              "target": "3x8",
+              "sets": 3
+            },
+            {
+              "name": "Deadlift",
+              "target": "2x3",
+              "sets": 2
+            },
+            {
+              "name": "Pull-ups (or lat pulldown)",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Dumbbell rows in bent-over position",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Seated dumbbell shrugs",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Straight barbell curls",
+              "target": "3x12",
+              "sets": 3
+            },
+            {
+              "name": "Reverse grip barbell curls",
+              "target": "2x15",
+              "sets": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "days": [
+        {
+          "name": "Monday \u2014 Legs",
+          "exercises": [
+            {
+              "name": "Barbell squats",
+              "target": "4x6",
+              "sets": 4
+            },
+            {
+              "name": "Front squats",
+              "target": "2x10",
+              "sets": 2
+            },
+            {
+              "name": "Deadlifts",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Leg press with pause at the bottom for 3 sec",
+              "target": "3x8",
+              "sets": 3
+            },
+            {
+              "name": "Jumping jacks to maximum height",
+              "target": "3x10",
+              "sets": 3
+            }
+          ]
+        },
+        {
+          "name": "Wednesday \u2014 Chest",
+          "exercises": [
+            {
+              "name": "Dumbbell bench press",
+              "target": "3x8",
+              "sets": 3
+            },
+            {
+              "name": "Close-grip barbell bench press",
+              "target": "2x10",
+              "sets": 2
+            },
+            {
+              "name": "Parallel bar dips (weighted if possible)",
+              "target": "3x8",
+              "sets": 3
+            },
+            {
+              "name": "Flyes",
+              "target": "4x12",
+              "sets": 4
+            },
+            {
+              "name": "Plate press",
+              "target": "2x20",
+              "sets": 2
+            }
+          ]
+        },
+        {
+          "name": "Friday \u2014 Back",
+          "exercises": [
+            {
+              "name": "Deadlifts",
+              "target": "3x7",
+              "sets": 3
+            },
+            {
+              "name": "Rack pulls with the bar resting 3\u20135 cm above the knee",
+              "target": "2x9",
+              "sets": 2
+            },
+            {
+              "name": "Seated cable rows",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Wide-grip lat pulldowns",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Straight-arm pulldowns",
+              "target": "4x12",
+              "sets": 4
+            }
+          ]
+        },
+        {
+          "name": "Saturday \u2014 Arms and Shoulders",
+          "exercises": [
+            {
+              "name": "Hammer curls",
+              "target": "3x8",
+              "sets": 3
+            },
+            {
+              "name": "Wide-grip barbell curls",
+              "target": "3x8",
+              "sets": 3
+            },
+            {
+              "name": "Skull crushers",
+              "target": "3x8",
+              "sets": 3
+            },
+            {
+              "name": "Incline dumbbell triceps extensions",
+              "target": "4x12",
+              "sets": 4
+            },
+            {
+              "name": "Seated dumbbell lateral raises",
+              "target": "4x15",
+              "sets": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "days": [
+        {
+          "name": "Monday \u2014 Legs",
+          "exercises": [
+            {
+              "name": "Squats",
+              "target": "5x5",
+              "sets": 5
+            },
+            {
+              "name": "Leg press (pause for 3 seconds at the bottom)",
+              "target": "3x8",
+              "sets": 3
+            },
+            {
+              "name": "Front squats with dumbbell",
+              "target": "4x12",
+              "sets": 4
+            },
+            {
+              "name": "Long jumps",
+              "target": "3x8",
+              "sets": 3
+            },
+            {
+              "name": "Weighted hyperextensions",
+              "target": "3x10",
+              "sets": 3
+            }
+          ]
+        },
+        {
+          "name": "Wednesday \u2014 Bench Press",
+          "exercises": [
+            {
+              "name": "Bench press",
+              "target": "5x5",
+              "sets": 5
+            },
+            {
+              "name": "Narrow dumbbell press",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Incline flyes (30\u00b0)",
+              "target": "3x12",
+              "sets": 3
+            },
+            {
+              "name": "Cable crossovers",
+              "target": "4x15",
+              "sets": 4
+            },
+            {
+              "name": "Triceps pushdowns",
+              "target": "3x12",
+              "sets": 3
+            },
+            {
+              "name": "Close-grip bench press, 3 seconds down and 1 second up (important to do with a spotter)",
+              "target": "3x5",
+              "sets": 3
+            }
+          ]
+        },
+        {
+          "name": "Friday \u2014 Back and Biceps",
+          "exercises": [
+            {
+              "name": "Deadlift",
+              "target": "5x5",
+              "sets": 5
+            },
+            {
+              "name": "Pull-ups (or cable pulldowns)",
+              "target": "4x8",
+              "sets": 4
+            },
+            {
+              "name": "Horizontal cable rows",
+              "target": "4x10",
+              "sets": 4
+            },
+            {
+              "name": "Bent-over barbell rows (important not to use too much weight, focus on feeling the movement)",
+              "target": "3x10",
+              "sets": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "days": [
+        {
+          "name": "Monday \u2014 Legs",
+          "exercises": [
+            {
+              "name": "Squats",
+              "target": "4x4",
+              "sets": 4
+            },
+            {
+              "name": "Front squats",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Leg press",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "High jumps",
+              "target": "4x12",
+              "sets": 4
+            },
+            {
+              "name": "Single-leg squats (can be done with support)",
+              "target": "2x10",
+              "sets": 2
+            }
+          ]
+        },
+        {
+          "name": "Wednesday \u2014 Chest",
+          "exercises": [
+            {
+              "name": "Bench press",
+              "target": "4x4",
+              "sets": 4
+            },
+            {
+              "name": "Bench press with a 4-second pause at the bottom",
+              "target": "3x3",
+              "sets": 3
+            },
+            {
+              "name": "Dumbbell bench press",
+              "target": "3x12",
+              "sets": 3
+            },
+            {
+              "name": "Pullover",
+              "target": "3x12",
+              "sets": 3
+            },
+            {
+              "name": "Floor presses",
+              "target": "2x max",
+              "sets": 1
+            }
+          ]
+        },
+        {
+          "name": "Friday \u2014 Back and Legs",
+          "exercises": [
+            {
+              "name": "Deadlift",
+              "target": "4x4",
+              "sets": 4
+            },
+            {
+              "name": "Leg press",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Cable rows with a 2-second pause at the top",
+              "target": "5x8",
+              "sets": 5
+            },
+            {
+              "name": "Vertical jumps",
+              "target": "3x10",
+              "sets": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "days": [
+        {
+          "name": "Monday \u2014 Legs",
+          "exercises": [
+            {
+              "name": "Squats",
+              "target": "3x3",
+              "sets": 3
+            },
+            {
+              "name": "Trap bar squats",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Leg press",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Sumo squats with dumbbells on chest",
+              "target": "3x10",
+              "sets": 3
+            }
+          ]
+        },
+        {
+          "name": "Wednesday \u2014 Chest",
+          "exercises": [
+            {
+              "name": "Bench press",
+              "target": "3x3",
+              "sets": 3
+            },
+            {
+              "name": "Incline bench press (45\u00b0)",
+              "target": "3x8",
+              "sets": 3
+            },
+            {
+              "name": "Standing barbell press",
+              "target": "3x6",
+              "sets": 3
+            },
+            {
+              "name": "Incline dumbbell press (40\u00b0)",
+              "target": "4x15",
+              "sets": 4
+            }
+          ]
+        },
+        {
+          "name": "Friday \u2014 Back",
+          "exercises": [
+            {
+              "name": "Deadlift",
+              "target": "3x3",
+              "sets": 3
+            },
+            {
+              "name": "Reverse-grip bent-over rows",
+              "target": "3x8",
+              "sets": 3
+            },
+            {
+              "name": "Lat pulldowns",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "T-bar rows",
+              "target": "4x10",
+              "sets": 4
+            },
+            {
+              "name": "Shrugs with barbell",
+              "target": "4x10",
+              "sets": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "days": [
+        {
+          "name": "Monday \u2014 Legs and Shoulders",
+          "exercises": [
+            {
+              "name": "Squats",
+              "target": "2x2",
+              "sets": 2
+            },
+            {
+              "name": "Front squats",
+              "target": "3x12",
+              "sets": 3
+            },
+            {
+              "name": "Sumo leg press",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Standing barbell press",
+              "target": "3x6",
+              "sets": 3
+            },
+            {
+              "name": "Seated dumbbell press",
+              "target": "3x10",
+              "sets": 3
+            }
+          ]
+        },
+        {
+          "name": "Wednesday \u2014 Chest and Triceps",
+          "exercises": [
+            {
+              "name": "Bench press",
+              "target": "2x2",
+              "sets": 2
+            },
+            {
+              "name": "Incline dumbbell press (30\u00b0)",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Dips",
+              "target": "3x15",
+              "sets": 3
+            },
+            {
+              "name": "Dumbbell French press on incline bench (30\u00b0)",
+              "target": "3x12",
+              "sets": 3
+            },
+            {
+              "name": "Cable triceps extensions",
+              "target": "4x12",
+              "sets": 4
+            }
+          ]
+        },
+        {
+          "name": "Friday \u2014 Back and Biceps",
+          "exercises": [
+            {
+              "name": "Deadlift",
+              "target": "2x2",
+              "sets": 2
+            },
+            {
+              "name": "Bent-over rows with barbell",
+              "target": "3x8",
+              "sets": 3
+            },
+            {
+              "name": "Bent-over rows with dumbbells",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Pull-ups",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Reverse-grip barbell curls",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Bicep curls on cable machine",
+              "target": "3x20",
+              "sets": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "days": [
+        {
+          "name": "Monday \u2014 Legs and Shoulders",
+          "exercises": [
+            {
+              "name": "Squats (record)",
+              "target": "1x1",
+              "sets": 1
+            },
+            {
+              "name": "Squats",
+              "target": "3x12",
+              "sets": 3
+            },
+            {
+              "name": "Leg press",
+              "target": "3x15",
+              "sets": 3
+            },
+            {
+              "name": "Lateral raises with dumbbells",
+              "target": "4x12",
+              "sets": 4
+            },
+            {
+              "name": "Standing dumbbell press",
+              "target": "3x12",
+              "sets": 3
+            }
+          ]
+        },
+        {
+          "name": "Wednesday \u2014 Chest and Biceps",
+          "exercises": [
+            {
+              "name": "Bench press (record)",
+              "target": "1x1",
+              "sets": 1
+            },
+            {
+              "name": "Bench press",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Incline dumbbell press",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Hammer curls",
+              "target": "5x5",
+              "sets": 5
+            },
+            {
+              "name": "Single-arm cable curls",
+              "target": "3x10",
+              "sets": 3
+            }
+          ]
+        },
+        {
+          "name": "Saturday \u2014 Deadlift",
+          "exercises": [
+            {
+              "name": "Bent-over rows",
+              "target": "1x max",
+              "sets": 1
+            },
+            {
+              "name": "Bent-over rows",
+              "target": "3x8",
+              "sets": 3
+            },
+            {
+              "name": "Lat pulldowns",
+              "target": "5x10",
+              "sets": 5
+            },
+            {
+              "name": "Tricep extensions on cable machine",
+              "target": "3x12",
+              "sets": 3
+            },
+            {
+              "name": "Dumbbell French press on flat bench",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Diamond push-ups",
+              "target": "2x max",
+              "sets": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
