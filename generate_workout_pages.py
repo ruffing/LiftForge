@@ -15,19 +15,23 @@ from pathlib import Path
 from typing import Any
 
 
-WEEK_RE = re.compile(r"^\s{0,3}#{1,6}\s+Week\s+(\d+)\b", re.IGNORECASE)
+WEEK_RE = re.compile(
+    r"^\s{0,3}#{1,6}\s+Week\s+(\d+)\b(?:\s+[\u2013\u2014-]\s+(.+?))?\s*$", re.IGNORECASE
+)
 HEADING_RE = re.compile(r"^\s{0,3}#{1,6}\s+(.+?)\s*$")
 EXERCISE_RE = re.compile(r"^\s*\d+\.\s+(.*?)\s*$")
 DASH_SPLIT_RE = re.compile(r"\s+[\u2013\u2014-]\s+")
 BOLD_RE = re.compile(r"\*\*(.*?)\*\*")
-SET_COUNT_RE = re.compile(r"^(\d+)\s*[xX]\s*\d+")
+ITALIC_RE = re.compile(r"\*(.*?)\*")
+SET_COUNT_RE = re.compile(r"^(?:\d+\s*[\u2013-]\s*)?(\d+)\s*[xX]\s*\d+")
 SET_WORD_RE = re.compile(r"^(\d+)\s+set\b", re.IGNORECASE)
 
 
 def clean_markdown(text: str) -> str:
     """Strip minimal markdown formatting used in workout entries."""
     unbolded = BOLD_RE.sub(r"\1", text)
-    return unbolded.strip()
+    unitalicized = ITALIC_RE.sub(r"\1", unbolded)
+    return unitalicized.strip()
 
 
 def parse_workout_markdown(markdown_text: str) -> list[dict[str, Any]]:
@@ -44,7 +48,11 @@ def parse_workout_markdown(markdown_text: str) -> list[dict[str, Any]]:
         week_match = WEEK_RE.match(line)
         if week_match:
             week_number = int(week_match.group(1))
-            current_week = {"number": week_number, "days": []}
+            current_week = {
+                "number": week_number,
+                "label": (week_match.group(2) or "").strip(),
+                "days": [],
+            }
             weeks.append(current_week)
             current_day = None
             continue
@@ -77,7 +85,7 @@ def parse_workout_markdown(markdown_text: str) -> list[dict[str, Any]]:
 
 
 def infer_set_count(target: str) -> int:
-    """Infer number of sets from target text (e.g., 3x10 -> 3 sets)."""
+    """Infer number of sets from target text (e.g., 3x10 -> 3, 2–3x8 -> 3)."""
     cleaned = target.strip()
     if not cleaned:
         return 1
@@ -100,6 +108,7 @@ def build_workout_data(weeks: list[dict[str, Any]], document_title: str) -> dict
         "weeks": [
             {
                 "number": week["number"],
+                "label": week["label"],
                 "days": [
                     {
                         "name": day["name"],

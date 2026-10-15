@@ -1,8 +1,16 @@
 (() => {
   "use strict";
 
-  const STORAGE_KEY = "liftlog:v1";
-  const DATA_URL = "workout.json";
+  // Pages can override these via window.LIFTLOG_CONFIG to host a separate program.
+  const CONFIG = {
+    storageKey: "liftlog:v1",
+    dataUrl: "workout.json",
+    dataCacheKey: "liftlog:data-cache",
+    exportPrefix: "liftlog-export",
+    ...window.LIFTLOG_CONFIG,
+  };
+  const STORAGE_KEY = CONFIG.storageKey;
+  const DATA_URL = CONFIG.dataUrl;
 
   const header = document.getElementById("header-title");
   const backBtn = document.getElementById("back-btn");
@@ -105,7 +113,7 @@
 
   async function exportLogs() {
     const payload = JSON.stringify(store, null, 2);
-    const filename = `liftlog-export-${new Date().toISOString().slice(0, 10)}.json`;
+    const filename = `${CONFIG.exportPrefix}-${new Date().toISOString().slice(0, 10)}.json`;
     const file = new File([payload], filename, { type: "application/json" });
 
     if (navigator.canShare && navigator.canShare({ files: [file] })) {
@@ -139,6 +147,10 @@
     render();
   });
 
+  function weekLabel(week) {
+    return week.label ? `Week ${week.number} · ${week.label}` : `Week ${week.number}`;
+  }
+
   function render() {
     populateCycleSelect();
     if (nav.view === "weeks") renderWeeks();
@@ -154,7 +166,7 @@
     workoutData.weeks.forEach((week, weekIdx) => {
       const node = tplWeekItem.content.cloneNode(true);
       const btn = node.querySelector(".week-btn");
-      node.querySelector(".week-name").textContent = `Week ${week.number}`;
+      node.querySelector(".week-name").textContent = weekLabel(week);
       const stats = weekStats(store.currentCycle, weekIdx, week);
       node.querySelector(".week-progress").textContent = `${stats.done}/${stats.total}`;
       btn.addEventListener("click", () => {
@@ -170,7 +182,7 @@
   function renderDays() {
     backBtn.hidden = false;
     const week = workoutData.weeks[nav.weekIdx];
-    header.textContent = `Week ${week.number}`;
+    header.textContent = weekLabel(week);
     main.innerHTML = "";
     const list = document.createElement("ul");
     week.days.forEach((day, dayIdx) => {
@@ -248,9 +260,9 @@
     try {
       const res = await fetch(DATA_URL, { cache: "no-cache" });
       workoutData = await res.json();
-      localStorage.setItem("liftlog:data-cache", JSON.stringify(workoutData));
+      localStorage.setItem(CONFIG.dataCacheKey, JSON.stringify(workoutData));
     } catch (err) {
-      const cached = localStorage.getItem("liftlog:data-cache");
+      const cached = localStorage.getItem(CONFIG.dataCacheKey);
       if (cached) {
         workoutData = JSON.parse(cached);
       } else {

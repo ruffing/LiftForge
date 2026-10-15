@@ -1,0 +1,1793 @@
+{
+  "title": "8-Week Strength",
+  "weeks": [
+    {
+      "number": 1,
+      "label": "",
+      "days": [
+        {
+          "name": "Monday \u2014 Lower A (Squat Emphasis)",
+          "exercises": [
+            {
+              "name": "Back Squat",
+              "target": "3x10 (RPE 6\u20137)",
+              "sets": 3
+            },
+            {
+              "name": "Romanian Deadlift",
+              "target": "3x10 (RPE 6)",
+              "sets": 3
+            },
+            {
+              "name": "Leg Press",
+              "target": "3x10\u201312 (RPE 7\u20138)",
+              "sets": 3
+            },
+            {
+              "name": "Walking Lunge (dumbbell)",
+              "target": "3x10\u201312 per leg (RPE 7\u20138)",
+              "sets": 3
+            },
+            {
+              "name": "Weighted Back Extension",
+              "target": "2x12 (RPE 6\u20137)",
+              "sets": 2
+            }
+          ]
+        },
+        {
+          "name": "Tuesday \u2014 Upper A (Bench Emphasis)",
+          "exercises": [
+            {
+              "name": "Bench Press",
+              "target": "3x10 (RPE 6\u20137)",
+              "sets": 3
+            },
+            {
+              "name": "Overhead Press (standing barbell)",
+              "target": "3x8\u201310 (RPE 6\u20137)",
+              "sets": 3
+            },
+            {
+              "name": "Lateral Raise",
+              "target": "3x10\u201312 (RPE 7\u20138)",
+              "sets": 3
+            },
+            {
+              "name": "EZ-Bar Curl",
+              "target": "3x10\u201312 (RPE 7\u20138)",
+              "sets": 3
+            },
+            {
+              "name": "Cable Triceps Pushdown",
+              "target": "3x10\u201312 (RPE 7\u20138)",
+              "sets": 3
+            }
+          ]
+        },
+        {
+          "name": "Wednesday \u2014 Core + Easy Run",
+          "exercises": [
+            {
+              "name": "Box Jump",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Leg Raise",
+              "target": "3x15",
+              "sets": 3
+            },
+            {
+              "name": "Crunch Machine",
+              "target": "3x15",
+              "sets": 3
+            },
+            {
+              "name": "Weighted Russian Twist",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Single Leg Boat",
+              "target": "3x10 per side",
+              "sets": 3
+            },
+            {
+              "name": "Double Leg Boat",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Spiderman Plank",
+              "target": "4x10s per side",
+              "sets": 4
+            },
+            {
+              "name": "Easy Run",
+              "target": "15\u201325 min",
+              "sets": 1
+            }
+          ]
+        },
+        {
+          "name": "Thursday \u2014 Lower B (Deadlift Emphasis)",
+          "exercises": [
+            {
+              "name": "Deadlift",
+              "target": "3x10 (RPE 6\u20137)",
+              "sets": 3
+            },
+            {
+              "name": "Front Squat",
+              "target": "3x10 (RPE 6)",
+              "sets": 3
+            },
+            {
+              "name": "Bulgarian Split Squat (dumbbell)",
+              "target": "3x10\u201312 per leg (RPE 7\u20138)",
+              "sets": 3
+            },
+            {
+              "name": "Single-Leg Romanian Deadlift",
+              "target": "3x10\u201312 per leg (RPE 7\u20138)",
+              "sets": 3
+            }
+          ]
+        },
+        {
+          "name": "Friday \u2014 Upper B (Shoulders/Pull Emphasis)",
+          "exercises": [
+            {
+              "name": "Close-Grip Bench Press",
+              "target": "3x10 (RPE 6)",
+              "sets": 3
+            },
+            {
+              "name": "Overhead Press (seated dumbbell)",
+              "target": "3x8\u201310 (RPE 6\u20137)",
+              "sets": 3
+            },
+            {
+              "name": "Pull-Up or Lat Pulldown",
+              "target": "3x10\u201312 (RPE 7\u20138)",
+              "sets": 3
+            },
+            {
+              "name": "Incline Dumbbell Press",
+              "target": "3x10\u201312 (RPE 7\u20138)",
+              "sets": 3
+            },
+            {
+              "name": "Rear-Delt Fly (or Face Pull)",
+              "target": "3x10\u201312 (RPE 7\u20138)",
+              "sets": 3
+            },
+            {
+              "name": "Incline Dumbbell Curl (supinating)",
+              "target": "3x10\u201312 (RPE 7\u20138)",
+              "sets": 3
+            },
+            {
+              "name": "Overhead Dumbbell Triceps Extension",
+              "target": "3x10\u201312 (RPE 7\u20138)",
+              "sets": 3
+            }
+          ]
+        },
+        {
+          "name": "Saturday \u2014 Core + Easy Run",
+          "exercises": [
+            {
+              "name": "Box Jump",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Leg Raise",
+              "target": "3x15",
+              "sets": 3
+            },
+            {
+              "name": "Crunch Machine",
+              "target": "3x15",
+              "sets": 3
+            },
+            {
+              "name": "Weighted Russian Twist",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Single Leg Boat",
+              "target": "3x10 per side",
+              "sets": 3
+            },
+            {
+              "name": "Double Leg Boat",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Spiderman Plank",
+              "target": "4x10s per side",
+              "sets": 4
+            },
+            {
+              "name": "Easy Run",
+              "target": "15\u201325 min",
+              "sets": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "label": "",
+      "days": [
+        {
+          "name": "Monday \u2014 Lower A",
+          "exercises": [
+            {
+              "name": "Back Squat",
+              "target": "3x8 (RPE 7)",
+              "sets": 3
+            },
+            {
+              "name": "Romanian Deadlift",
+              "target": "3x8 (RPE 6\u20137)",
+              "sets": 3
+            },
+            {
+              "name": "Leg Press",
+              "target": "3x10\u201312 (RPE 7\u20138)",
+              "sets": 3
+            },
+            {
+              "name": "Walking Lunge (dumbbell)",
+              "target": "3x10\u201312 per leg (RPE 7\u20138)",
+              "sets": 3
+            },
+            {
+              "name": "Weighted Back Extension",
+              "target": "2x12 (RPE 6\u20137)",
+              "sets": 2
+            }
+          ]
+        },
+        {
+          "name": "Tuesday \u2014 Upper A",
+          "exercises": [
+            {
+              "name": "Bench Press",
+              "target": "3x8 (RPE 7)",
+              "sets": 3
+            },
+            {
+              "name": "Overhead Press (standing barbell)",
+              "target": "3x8\u201310 (RPE 6\u20137)",
+              "sets": 3
+            },
+            {
+              "name": "Lateral Raise",
+              "target": "3x10\u201312 (RPE 7\u20138)",
+              "sets": 3
+            },
+            {
+              "name": "EZ-Bar Curl",
+              "target": "3x10\u201312 (RPE 7\u20138)",
+              "sets": 3
+            },
+            {
+              "name": "Cable Triceps Pushdown",
+              "target": "3x10\u201312 (RPE 7\u20138)",
+              "sets": 3
+            }
+          ]
+        },
+        {
+          "name": "Wednesday \u2014 Core + Easy Run",
+          "exercises": [
+            {
+              "name": "Box Jump",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Leg Raise",
+              "target": "3x15",
+              "sets": 3
+            },
+            {
+              "name": "Crunch Machine",
+              "target": "3x15",
+              "sets": 3
+            },
+            {
+              "name": "Weighted Russian Twist",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Single Leg Boat",
+              "target": "3x10 per side",
+              "sets": 3
+            },
+            {
+              "name": "Double Leg Boat",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Spiderman Plank",
+              "target": "4x10s per side",
+              "sets": 4
+            },
+            {
+              "name": "Easy Run",
+              "target": "15\u201325 min",
+              "sets": 1
+            }
+          ]
+        },
+        {
+          "name": "Thursday \u2014 Lower B",
+          "exercises": [
+            {
+              "name": "Deadlift",
+              "target": "3x8 (RPE 7)",
+              "sets": 3
+            },
+            {
+              "name": "Front Squat",
+              "target": "3x8 (RPE 6\u20137)",
+              "sets": 3
+            },
+            {
+              "name": "Bulgarian Split Squat (dumbbell)",
+              "target": "3x10\u201312 per leg (RPE 7\u20138)",
+              "sets": 3
+            },
+            {
+              "name": "Single-Leg Romanian Deadlift",
+              "target": "3x10\u201312 per leg (RPE 7\u20138)",
+              "sets": 3
+            },
+            {
+              "name": "Hanging Leg Raise",
+              "target": "2x12\u201315",
+              "sets": 2
+            }
+          ]
+        },
+        {
+          "name": "Friday \u2014 Upper B",
+          "exercises": [
+            {
+              "name": "Close-Grip Bench Press",
+              "target": "3x8 (RPE 6\u20137)",
+              "sets": 3
+            },
+            {
+              "name": "Overhead Press (seated dumbbell)",
+              "target": "3x8\u201310 (RPE 6\u20137)",
+              "sets": 3
+            },
+            {
+              "name": "Pull-Up or Lat Pulldown",
+              "target": "3x10\u201312 (RPE 7\u20138)",
+              "sets": 3
+            },
+            {
+              "name": "Incline Dumbbell Press",
+              "target": "3x10\u201312 (RPE 7\u20138)",
+              "sets": 3
+            },
+            {
+              "name": "Rear-Delt Fly (or Face Pull)",
+              "target": "3x10\u201312 (RPE 7\u20138)",
+              "sets": 3
+            },
+            {
+              "name": "Incline Dumbbell Curl (supinating)",
+              "target": "3x10\u201312 (RPE 7\u20138)",
+              "sets": 3
+            },
+            {
+              "name": "Overhead Dumbbell Triceps Extension",
+              "target": "3x10\u201312 (RPE 7\u20138)",
+              "sets": 3
+            }
+          ]
+        },
+        {
+          "name": "Saturday \u2014 Core + Easy Run",
+          "exercises": [
+            {
+              "name": "Box Jump",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Leg Raise",
+              "target": "3x15",
+              "sets": 3
+            },
+            {
+              "name": "Crunch Machine",
+              "target": "3x15",
+              "sets": 3
+            },
+            {
+              "name": "Weighted Russian Twist",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Single Leg Boat",
+              "target": "3x10 per side",
+              "sets": 3
+            },
+            {
+              "name": "Double Leg Boat",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Spiderman Plank",
+              "target": "4x10s per side",
+              "sets": 4
+            },
+            {
+              "name": "Easy Run",
+              "target": "15\u201325 min",
+              "sets": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "label": "",
+      "days": [
+        {
+          "name": "Monday \u2014 Lower A",
+          "exercises": [
+            {
+              "name": "Back Squat",
+              "target": "4x6 (RPE 7\u20138)",
+              "sets": 4
+            },
+            {
+              "name": "Romanian Deadlift",
+              "target": "3x8 (RPE 7)",
+              "sets": 3
+            },
+            {
+              "name": "Leg Press",
+              "target": "3x10\u201312 (RPE 7\u20138)",
+              "sets": 3
+            },
+            {
+              "name": "Walking Lunge (dumbbell)",
+              "target": "3x10\u201312 per leg (RPE 7\u20138)",
+              "sets": 3
+            },
+            {
+              "name": "Weighted Back Extension",
+              "target": "2x12 (RPE 6\u20137)",
+              "sets": 2
+            }
+          ]
+        },
+        {
+          "name": "Tuesday \u2014 Upper A",
+          "exercises": [
+            {
+              "name": "Bench Press",
+              "target": "4x6 (RPE 7\u20138)",
+              "sets": 4
+            },
+            {
+              "name": "Overhead Press (standing barbell)",
+              "target": "3x8\u201310 (RPE 6\u20137)",
+              "sets": 3
+            },
+            {
+              "name": "Lateral Raise",
+              "target": "3x10\u201312 (RPE 7\u20138)",
+              "sets": 3
+            },
+            {
+              "name": "EZ-Bar Curl",
+              "target": "3x10\u201312 (RPE 7\u20138)",
+              "sets": 3
+            },
+            {
+              "name": "Cable Triceps Pushdown",
+              "target": "3x10\u201312 (RPE 7\u20138)",
+              "sets": 3
+            }
+          ]
+        },
+        {
+          "name": "Wednesday \u2014 Core + Easy Run",
+          "exercises": [
+            {
+              "name": "Box Jump",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Leg Raise",
+              "target": "3x15",
+              "sets": 3
+            },
+            {
+              "name": "Crunch Machine",
+              "target": "3x15",
+              "sets": 3
+            },
+            {
+              "name": "Weighted Russian Twist",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Single Leg Boat",
+              "target": "3x10 per side",
+              "sets": 3
+            },
+            {
+              "name": "Double Leg Boat",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Spiderman Plank",
+              "target": "4x10s per side",
+              "sets": 4
+            },
+            {
+              "name": "Easy Run",
+              "target": "15\u201325 min",
+              "sets": 1
+            }
+          ]
+        },
+        {
+          "name": "Thursday \u2014 Lower B",
+          "exercises": [
+            {
+              "name": "Deadlift",
+              "target": "4x6 (RPE 7\u20138)",
+              "sets": 4
+            },
+            {
+              "name": "Front Squat",
+              "target": "3x8 (RPE 7)",
+              "sets": 3
+            },
+            {
+              "name": "Bulgarian Split Squat (dumbbell)",
+              "target": "3x10\u201312 per leg (RPE 7\u20138)",
+              "sets": 3
+            },
+            {
+              "name": "Single-Leg Romanian Deadlift",
+              "target": "3x10\u201312 per leg (RPE 7\u20138)",
+              "sets": 3
+            },
+            {
+              "name": "Hanging Leg Raise",
+              "target": "2x12\u201315",
+              "sets": 2
+            }
+          ]
+        },
+        {
+          "name": "Friday \u2014 Upper B",
+          "exercises": [
+            {
+              "name": "Close-Grip Bench Press",
+              "target": "3x8 (RPE 7)",
+              "sets": 3
+            },
+            {
+              "name": "Overhead Press (seated dumbbell)",
+              "target": "3x8\u201310 (RPE 6\u20137)",
+              "sets": 3
+            },
+            {
+              "name": "Pull-Up or Lat Pulldown",
+              "target": "3x10\u201312 (RPE 7\u20138)",
+              "sets": 3
+            },
+            {
+              "name": "Incline Dumbbell Press",
+              "target": "3x10\u201312 (RPE 7\u20138)",
+              "sets": 3
+            },
+            {
+              "name": "Rear-Delt Fly (or Face Pull)",
+              "target": "3x10\u201312 (RPE 7\u20138)",
+              "sets": 3
+            },
+            {
+              "name": "Incline Dumbbell Curl (supinating)",
+              "target": "3x10\u201312 (RPE 7\u20138)",
+              "sets": 3
+            },
+            {
+              "name": "Overhead Dumbbell Triceps Extension",
+              "target": "3x10\u201312 (RPE 7\u20138)",
+              "sets": 3
+            }
+          ]
+        },
+        {
+          "name": "Saturday \u2014 Core + Easy Run",
+          "exercises": [
+            {
+              "name": "Box Jump",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Leg Raise",
+              "target": "3x15",
+              "sets": 3
+            },
+            {
+              "name": "Crunch Machine",
+              "target": "3x15",
+              "sets": 3
+            },
+            {
+              "name": "Weighted Russian Twist",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Single Leg Boat",
+              "target": "3x10 per side",
+              "sets": 3
+            },
+            {
+              "name": "Double Leg Boat",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Spiderman Plank",
+              "target": "4x10s per side",
+              "sets": 4
+            },
+            {
+              "name": "Easy Run",
+              "target": "15\u201325 min",
+              "sets": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "label": "Deload",
+      "days": [
+        {
+          "name": "Monday \u2014 Lower A",
+          "exercises": [
+            {
+              "name": "Back Squat",
+              "target": "2x5 (RPE 5)",
+              "sets": 2
+            },
+            {
+              "name": "Romanian Deadlift",
+              "target": "2x8 (RPE 5)",
+              "sets": 2
+            },
+            {
+              "name": "Leg Press",
+              "target": "2x10 (RPE 5\u20136)",
+              "sets": 2
+            },
+            {
+              "name": "Walking Lunge (dumbbell)",
+              "target": "2x10 per leg (RPE 5\u20136)",
+              "sets": 2
+            },
+            {
+              "name": "Weighted Back Extension",
+              "target": "2x10 (RPE 5\u20136)",
+              "sets": 2
+            }
+          ]
+        },
+        {
+          "name": "Tuesday \u2014 Upper A",
+          "exercises": [
+            {
+              "name": "Bench Press",
+              "target": "2x5 (RPE 5)",
+              "sets": 2
+            },
+            {
+              "name": "Overhead Press (standing barbell)",
+              "target": "2x8\u201310 (RPE 5\u20136)",
+              "sets": 2
+            },
+            {
+              "name": "Lateral Raise",
+              "target": "2x10 (RPE 5\u20136)",
+              "sets": 2
+            },
+            {
+              "name": "EZ-Bar Curl",
+              "target": "2x10 (RPE 5\u20136)",
+              "sets": 2
+            },
+            {
+              "name": "Cable Triceps Pushdown",
+              "target": "2x10 (RPE 5\u20136)",
+              "sets": 2
+            }
+          ]
+        },
+        {
+          "name": "Wednesday \u2014 Core + Easy Run",
+          "exercises": [
+            {
+              "name": "Box Jump",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Leg Raise",
+              "target": "3x15",
+              "sets": 3
+            },
+            {
+              "name": "Crunch Machine",
+              "target": "3x15",
+              "sets": 3
+            },
+            {
+              "name": "Weighted Russian Twist",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Single Leg Boat",
+              "target": "3x10 per side",
+              "sets": 3
+            },
+            {
+              "name": "Double Leg Boat",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Spiderman Plank",
+              "target": "4x10s per side",
+              "sets": 4
+            },
+            {
+              "name": "Easy Run",
+              "target": "15\u201325 min",
+              "sets": 1
+            }
+          ]
+        },
+        {
+          "name": "Thursday \u2014 Lower B",
+          "exercises": [
+            {
+              "name": "Deadlift",
+              "target": "2x5 (RPE 5)",
+              "sets": 2
+            },
+            {
+              "name": "Front Squat",
+              "target": "2x8 (RPE 5)",
+              "sets": 2
+            },
+            {
+              "name": "Bulgarian Split Squat (dumbbell)",
+              "target": "2x10 per leg (RPE 5\u20136)",
+              "sets": 2
+            },
+            {
+              "name": "Single-Leg Romanian Deadlift",
+              "target": "2x10 per leg (RPE 5\u20136)",
+              "sets": 2
+            },
+            {
+              "name": "Hanging Leg Raise",
+              "target": "2x10",
+              "sets": 2
+            }
+          ]
+        },
+        {
+          "name": "Friday \u2014 Upper B",
+          "exercises": [
+            {
+              "name": "Close-Grip Bench Press",
+              "target": "2x8 (RPE 5)",
+              "sets": 2
+            },
+            {
+              "name": "Overhead Press (seated dumbbell)",
+              "target": "2x8\u201310 (RPE 5\u20136)",
+              "sets": 2
+            },
+            {
+              "name": "Pull-Up or Lat Pulldown",
+              "target": "2x10 (RPE 5\u20136)",
+              "sets": 2
+            },
+            {
+              "name": "Incline Dumbbell Press",
+              "target": "2x10 (RPE 5\u20136)",
+              "sets": 2
+            },
+            {
+              "name": "Rear-Delt Fly (or Face Pull)",
+              "target": "2x10 (RPE 5\u20136)",
+              "sets": 2
+            },
+            {
+              "name": "Incline Dumbbell Curl (supinating)",
+              "target": "2x10 (RPE 5\u20136)",
+              "sets": 2
+            },
+            {
+              "name": "Overhead Dumbbell Triceps Extension",
+              "target": "2x10 (RPE 5\u20136)",
+              "sets": 2
+            }
+          ]
+        },
+        {
+          "name": "Saturday \u2014 Core + Easy Run",
+          "exercises": [
+            {
+              "name": "Box Jump",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Leg Raise",
+              "target": "3x15",
+              "sets": 3
+            },
+            {
+              "name": "Crunch Machine",
+              "target": "3x15",
+              "sets": 3
+            },
+            {
+              "name": "Weighted Russian Twist",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Single Leg Boat",
+              "target": "3x10 per side",
+              "sets": 3
+            },
+            {
+              "name": "Double Leg Boat",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Spiderman Plank",
+              "target": "4x10s per side",
+              "sets": 4
+            },
+            {
+              "name": "Easy Run",
+              "target": "15\u201325 min",
+              "sets": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "label": "",
+      "days": [
+        {
+          "name": "Monday \u2014 Lower A",
+          "exercises": [
+            {
+              "name": "Back Squat",
+              "target": "4x5 (RPE 7\u20138)",
+              "sets": 4
+            },
+            {
+              "name": "Romanian Deadlift",
+              "target": "3x6 (RPE 7)",
+              "sets": 3
+            },
+            {
+              "name": "Leg Press",
+              "target": "3x8\u201310 (RPE 7\u20138)",
+              "sets": 3
+            },
+            {
+              "name": "Walking Lunge (dumbbell)",
+              "target": "3x8\u201310 per leg (RPE 7\u20138)",
+              "sets": 3
+            },
+            {
+              "name": "Weighted Back Extension",
+              "target": "2x12 (RPE 6\u20137)",
+              "sets": 2
+            }
+          ]
+        },
+        {
+          "name": "Tuesday \u2014 Upper A",
+          "exercises": [
+            {
+              "name": "Bench Press",
+              "target": "4x5 (RPE 7\u20138)",
+              "sets": 4
+            },
+            {
+              "name": "Overhead Press (standing barbell)",
+              "target": "3x8\u201310 (RPE 6\u20137)",
+              "sets": 3
+            },
+            {
+              "name": "Lateral Raise",
+              "target": "3x8\u201310 (RPE 7\u20138)",
+              "sets": 3
+            },
+            {
+              "name": "EZ-Bar Curl",
+              "target": "3x8\u201310 (RPE 7\u20138)",
+              "sets": 3
+            },
+            {
+              "name": "Cable Triceps Pushdown",
+              "target": "3x8\u201310 (RPE 7\u20138)",
+              "sets": 3
+            }
+          ]
+        },
+        {
+          "name": "Wednesday \u2014 Core + Easy Run",
+          "exercises": [
+            {
+              "name": "Box Jump",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Leg Raise",
+              "target": "3x15",
+              "sets": 3
+            },
+            {
+              "name": "Crunch Machine",
+              "target": "3x15",
+              "sets": 3
+            },
+            {
+              "name": "Weighted Russian Twist",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Single Leg Boat",
+              "target": "3x10 per side",
+              "sets": 3
+            },
+            {
+              "name": "Double Leg Boat",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Spiderman Plank",
+              "target": "4x10s per side",
+              "sets": 4
+            },
+            {
+              "name": "Easy Run",
+              "target": "15\u201325 min",
+              "sets": 1
+            }
+          ]
+        },
+        {
+          "name": "Thursday \u2014 Lower B",
+          "exercises": [
+            {
+              "name": "Deadlift",
+              "target": "4x5 (RPE 7\u20138)",
+              "sets": 4
+            },
+            {
+              "name": "Front Squat",
+              "target": "3x6 (RPE 7)",
+              "sets": 3
+            },
+            {
+              "name": "Bulgarian Split Squat (dumbbell)",
+              "target": "3x8\u201310 per leg (RPE 7\u20138)",
+              "sets": 3
+            },
+            {
+              "name": "Single-Leg Romanian Deadlift",
+              "target": "3x8\u201310 per leg (RPE 7\u20138)",
+              "sets": 3
+            },
+            {
+              "name": "Hanging Leg Raise",
+              "target": "2x12\u201315",
+              "sets": 2
+            }
+          ]
+        },
+        {
+          "name": "Friday \u2014 Upper B",
+          "exercises": [
+            {
+              "name": "Close-Grip Bench Press",
+              "target": "3x6 (RPE 7)",
+              "sets": 3
+            },
+            {
+              "name": "Overhead Press (seated dumbbell)",
+              "target": "3x8\u201310 (RPE 6\u20137)",
+              "sets": 3
+            },
+            {
+              "name": "Pull-Up or Lat Pulldown",
+              "target": "3x8\u201310 (RPE 7\u20138)",
+              "sets": 3
+            },
+            {
+              "name": "Incline Dumbbell Press",
+              "target": "3x8\u201310 (RPE 7\u20138)",
+              "sets": 3
+            },
+            {
+              "name": "Rear-Delt Fly (or Face Pull)",
+              "target": "3x8\u201310 (RPE 7\u20138)",
+              "sets": 3
+            },
+            {
+              "name": "Incline Dumbbell Curl (supinating)",
+              "target": "3x8\u201310 (RPE 7\u20138)",
+              "sets": 3
+            },
+            {
+              "name": "Overhead Dumbbell Triceps Extension",
+              "target": "3x8\u201310 (RPE 7\u20138)",
+              "sets": 3
+            }
+          ]
+        },
+        {
+          "name": "Saturday \u2014 Core + Easy Run",
+          "exercises": [
+            {
+              "name": "Box Jump",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Leg Raise",
+              "target": "3x15",
+              "sets": 3
+            },
+            {
+              "name": "Crunch Machine",
+              "target": "3x15",
+              "sets": 3
+            },
+            {
+              "name": "Weighted Russian Twist",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Single Leg Boat",
+              "target": "3x10 per side",
+              "sets": 3
+            },
+            {
+              "name": "Double Leg Boat",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Spiderman Plank",
+              "target": "4x10s per side",
+              "sets": 4
+            },
+            {
+              "name": "Easy Run",
+              "target": "15\u201325 min",
+              "sets": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "label": "",
+      "days": [
+        {
+          "name": "Monday \u2014 Lower A",
+          "exercises": [
+            {
+              "name": "Back Squat",
+              "target": "5x3 (RPE 8)",
+              "sets": 5
+            },
+            {
+              "name": "Romanian Deadlift",
+              "target": "3x6 (RPE 7)",
+              "sets": 3
+            },
+            {
+              "name": "Leg Press",
+              "target": "3x8\u201310 (RPE 7\u20138)",
+              "sets": 3
+            },
+            {
+              "name": "Walking Lunge (dumbbell)",
+              "target": "3x8\u201310 per leg (RPE 7\u20138)",
+              "sets": 3
+            },
+            {
+              "name": "Weighted Back Extension",
+              "target": "2x12 (RPE 6\u20137)",
+              "sets": 2
+            }
+          ]
+        },
+        {
+          "name": "Tuesday \u2014 Upper A",
+          "exercises": [
+            {
+              "name": "Bench Press",
+              "target": "5x3 (RPE 8)",
+              "sets": 5
+            },
+            {
+              "name": "Overhead Press (standing barbell)",
+              "target": "3x8\u201310 (RPE 6\u20137)",
+              "sets": 3
+            },
+            {
+              "name": "Lateral Raise",
+              "target": "3x8\u201310 (RPE 7\u20138)",
+              "sets": 3
+            },
+            {
+              "name": "EZ-Bar Curl",
+              "target": "3x8\u201310 (RPE 7\u20138)",
+              "sets": 3
+            },
+            {
+              "name": "Cable Triceps Pushdown",
+              "target": "3x8\u201310 (RPE 7\u20138)",
+              "sets": 3
+            }
+          ]
+        },
+        {
+          "name": "Wednesday \u2014 Core + Easy Run",
+          "exercises": [
+            {
+              "name": "Box Jump",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Leg Raise",
+              "target": "3x15",
+              "sets": 3
+            },
+            {
+              "name": "Crunch Machine",
+              "target": "3x15",
+              "sets": 3
+            },
+            {
+              "name": "Weighted Russian Twist",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Single Leg Boat",
+              "target": "3x10 per side",
+              "sets": 3
+            },
+            {
+              "name": "Double Leg Boat",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Spiderman Plank",
+              "target": "4x10s per side",
+              "sets": 4
+            },
+            {
+              "name": "Easy Run",
+              "target": "15\u201325 min",
+              "sets": 1
+            }
+          ]
+        },
+        {
+          "name": "Thursday \u2014 Lower B",
+          "exercises": [
+            {
+              "name": "Deadlift",
+              "target": "5x3 (RPE 8)",
+              "sets": 5
+            },
+            {
+              "name": "Front Squat",
+              "target": "3x6 (RPE 7)",
+              "sets": 3
+            },
+            {
+              "name": "Bulgarian Split Squat (dumbbell)",
+              "target": "3x8\u201310 per leg (RPE 7\u20138)",
+              "sets": 3
+            },
+            {
+              "name": "Single-Leg Romanian Deadlift",
+              "target": "3x8\u201310 per leg (RPE 7\u20138)",
+              "sets": 3
+            },
+            {
+              "name": "Hanging Leg Raise",
+              "target": "2x12\u201315",
+              "sets": 2
+            }
+          ]
+        },
+        {
+          "name": "Friday \u2014 Upper B",
+          "exercises": [
+            {
+              "name": "Close-Grip Bench Press",
+              "target": "3x6 (RPE 7)",
+              "sets": 3
+            },
+            {
+              "name": "Overhead Press (seated dumbbell)",
+              "target": "3x8\u201310 (RPE 6\u20137)",
+              "sets": 3
+            },
+            {
+              "name": "Pull-Up or Lat Pulldown",
+              "target": "3x8\u201310 (RPE 7\u20138)",
+              "sets": 3
+            },
+            {
+              "name": "Incline Dumbbell Press",
+              "target": "3x8\u201310 (RPE 7\u20138)",
+              "sets": 3
+            },
+            {
+              "name": "Rear-Delt Fly (or Face Pull)",
+              "target": "3x8\u201310 (RPE 7\u20138)",
+              "sets": 3
+            },
+            {
+              "name": "Incline Dumbbell Curl (supinating)",
+              "target": "3x8\u201310 (RPE 7\u20138)",
+              "sets": 3
+            },
+            {
+              "name": "Overhead Dumbbell Triceps Extension",
+              "target": "3x8\u201310 (RPE 7\u20138)",
+              "sets": 3
+            }
+          ]
+        },
+        {
+          "name": "Saturday \u2014 Core + Easy Run",
+          "exercises": [
+            {
+              "name": "Box Jump",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Leg Raise",
+              "target": "3x15",
+              "sets": 3
+            },
+            {
+              "name": "Crunch Machine",
+              "target": "3x15",
+              "sets": 3
+            },
+            {
+              "name": "Weighted Russian Twist",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Single Leg Boat",
+              "target": "3x10 per side",
+              "sets": 3
+            },
+            {
+              "name": "Double Leg Boat",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Spiderman Plank",
+              "target": "4x10s per side",
+              "sets": 4
+            },
+            {
+              "name": "Easy Run",
+              "target": "15\u201325 min",
+              "sets": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "label": "Taper",
+      "days": [
+        {
+          "name": "Monday \u2014 Lower A",
+          "exercises": [
+            {
+              "name": "Back Squat",
+              "target": "4x2 (RPE 8\u20139)",
+              "sets": 4
+            },
+            {
+              "name": "Romanian Deadlift",
+              "target": "2x6 (RPE 6\u20137)",
+              "sets": 2
+            },
+            {
+              "name": "Leg Press",
+              "target": "2\u20133x8\u201310 (RPE 7)",
+              "sets": 3
+            },
+            {
+              "name": "Walking Lunge (dumbbell)",
+              "target": "2\u20133x8\u201310 per leg (RPE 7)",
+              "sets": 3
+            },
+            {
+              "name": "Weighted Back Extension",
+              "target": "2x12 (RPE 6\u20137)",
+              "sets": 2
+            }
+          ]
+        },
+        {
+          "name": "Tuesday \u2014 Upper A",
+          "exercises": [
+            {
+              "name": "Bench Press",
+              "target": "4x2 (RPE 8\u20139)",
+              "sets": 4
+            },
+            {
+              "name": "Overhead Press (standing barbell)",
+              "target": "3x8\u201310 (RPE 6\u20137)",
+              "sets": 3
+            },
+            {
+              "name": "Lateral Raise",
+              "target": "2\u20133x8\u201310 (RPE 7)",
+              "sets": 3
+            },
+            {
+              "name": "EZ-Bar Curl",
+              "target": "2\u20133x8\u201310 (RPE 7)",
+              "sets": 3
+            },
+            {
+              "name": "Cable Triceps Pushdown",
+              "target": "2\u20133x8\u201310 (RPE 7)",
+              "sets": 3
+            }
+          ]
+        },
+        {
+          "name": "Wednesday \u2014 Core + Easy Run",
+          "exercises": [
+            {
+              "name": "Box Jump",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Leg Raise",
+              "target": "3x15",
+              "sets": 3
+            },
+            {
+              "name": "Crunch Machine",
+              "target": "3x15",
+              "sets": 3
+            },
+            {
+              "name": "Weighted Russian Twist",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Single Leg Boat",
+              "target": "3x10 per side",
+              "sets": 3
+            },
+            {
+              "name": "Double Leg Boat",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Spiderman Plank",
+              "target": "4x10s per side",
+              "sets": 4
+            },
+            {
+              "name": "Easy Run",
+              "target": "15\u201325 min",
+              "sets": 1
+            }
+          ]
+        },
+        {
+          "name": "Thursday \u2014 Lower B",
+          "exercises": [
+            {
+              "name": "Deadlift",
+              "target": "4x2 (RPE 8\u20139)",
+              "sets": 4
+            },
+            {
+              "name": "Front Squat",
+              "target": "2x6 (RPE 6\u20137)",
+              "sets": 2
+            },
+            {
+              "name": "Bulgarian Split Squat (dumbbell)",
+              "target": "2\u20133x8\u201310 per leg (RPE 7)",
+              "sets": 3
+            },
+            {
+              "name": "Single-Leg Romanian Deadlift",
+              "target": "2\u20133x8\u201310 per leg (RPE 7)",
+              "sets": 3
+            },
+            {
+              "name": "Hanging Leg Raise",
+              "target": "2x12\u201315",
+              "sets": 2
+            }
+          ]
+        },
+        {
+          "name": "Friday \u2014 Upper B",
+          "exercises": [
+            {
+              "name": "Close-Grip Bench Press",
+              "target": "2x6 (RPE 6\u20137)",
+              "sets": 2
+            },
+            {
+              "name": "Overhead Press (seated dumbbell)",
+              "target": "3x8\u201310 (RPE 6\u20137)",
+              "sets": 3
+            },
+            {
+              "name": "Pull-Up or Lat Pulldown",
+              "target": "2\u20133x8\u201310 (RPE 7)",
+              "sets": 3
+            },
+            {
+              "name": "Incline Dumbbell Press",
+              "target": "2\u20133x8\u201310 (RPE 7)",
+              "sets": 3
+            },
+            {
+              "name": "Rear-Delt Fly (or Face Pull)",
+              "target": "2\u20133x8\u201310 (RPE 7)",
+              "sets": 3
+            },
+            {
+              "name": "Incline Dumbbell Curl (supinating)",
+              "target": "2\u20133x8\u201310 (RPE 7)",
+              "sets": 3
+            },
+            {
+              "name": "Overhead Dumbbell Triceps Extension",
+              "target": "2\u20133x8\u201310 (RPE 7)",
+              "sets": 3
+            }
+          ]
+        },
+        {
+          "name": "Saturday \u2014 Core + Easy Run",
+          "exercises": [
+            {
+              "name": "Box Jump",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Leg Raise",
+              "target": "3x15",
+              "sets": 3
+            },
+            {
+              "name": "Crunch Machine",
+              "target": "3x15",
+              "sets": 3
+            },
+            {
+              "name": "Weighted Russian Twist",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Single Leg Boat",
+              "target": "3x10 per side",
+              "sets": 3
+            },
+            {
+              "name": "Double Leg Boat",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Spiderman Plank",
+              "target": "4x10s per side",
+              "sets": 4
+            },
+            {
+              "name": "Easy Run",
+              "target": "15\u201325 min",
+              "sets": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "label": "Peak / Test Week",
+      "days": [
+        {
+          "name": "Monday \u2014 Squat Test",
+          "exercises": [
+            {
+              "name": "Back Squat (work up to 1-rep max)",
+              "target": "1x1 (RPE 9\u20139.5)",
+              "sets": 1
+            },
+            {
+              "name": "Romanian Deadlift",
+              "target": "2x6 (RPE 6)",
+              "sets": 2
+            },
+            {
+              "name": "Leg Press",
+              "target": "optional \u2014 skip or keep very light",
+              "sets": 1
+            },
+            {
+              "name": "Walking Lunge (dumbbell)",
+              "target": "optional \u2014 skip or keep very light",
+              "sets": 1
+            },
+            {
+              "name": "Weighted Back Extension",
+              "target": "optional \u2014 skip or keep very light",
+              "sets": 1
+            }
+          ]
+        },
+        {
+          "name": "Tuesday \u2014 Bench Test",
+          "exercises": [
+            {
+              "name": "Bench Press (work up to 1-rep max)",
+              "target": "1x1 (RPE 9\u20139.5)",
+              "sets": 1
+            },
+            {
+              "name": "Overhead Press (standing barbell)",
+              "target": "optional \u2014 skip or keep very light",
+              "sets": 1
+            },
+            {
+              "name": "Lateral Raise",
+              "target": "optional \u2014 skip or keep very light",
+              "sets": 1
+            },
+            {
+              "name": "EZ-Bar Curl",
+              "target": "optional \u2014 skip or keep very light",
+              "sets": 1
+            },
+            {
+              "name": "Cable Triceps Pushdown",
+              "target": "optional \u2014 skip or keep very light",
+              "sets": 1
+            }
+          ]
+        },
+        {
+          "name": "Wednesday \u2014 Core + Easy Run",
+          "exercises": [
+            {
+              "name": "Box Jump",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Leg Raise",
+              "target": "3x15",
+              "sets": 3
+            },
+            {
+              "name": "Crunch Machine",
+              "target": "3x15",
+              "sets": 3
+            },
+            {
+              "name": "Weighted Russian Twist",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Single Leg Boat",
+              "target": "3x10 per side",
+              "sets": 3
+            },
+            {
+              "name": "Double Leg Boat",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Spiderman Plank",
+              "target": "4x10s per side",
+              "sets": 4
+            },
+            {
+              "name": "Easy Run",
+              "target": "15\u201325 min",
+              "sets": 1
+            }
+          ]
+        },
+        {
+          "name": "Thursday \u2014 Deadlift Test",
+          "exercises": [
+            {
+              "name": "Deadlift (work up to 1-rep max)",
+              "target": "1x1 (RPE 9\u20139.5)",
+              "sets": 1
+            },
+            {
+              "name": "Front Squat",
+              "target": "2x6 (RPE 6)",
+              "sets": 2
+            },
+            {
+              "name": "Bulgarian Split Squat (dumbbell)",
+              "target": "optional \u2014 skip or keep very light",
+              "sets": 1
+            },
+            {
+              "name": "Single-Leg Romanian Deadlift",
+              "target": "optional \u2014 skip or keep very light",
+              "sets": 1
+            },
+            {
+              "name": "Hanging Leg Raise",
+              "target": "optional \u2014 skip or keep very light",
+              "sets": 1
+            }
+          ]
+        },
+        {
+          "name": "Friday \u2014 Optional Light Session (or Rest)",
+          "exercises": [
+            {
+              "name": "Overhead Press (seated dumbbell)",
+              "target": "2x10 (RPE \u22646)",
+              "sets": 2
+            },
+            {
+              "name": "Rear-Delt Fly (or Face Pull)",
+              "target": "2x12 (RPE \u22646)",
+              "sets": 2
+            },
+            {
+              "name": "Incline Dumbbell Curl (supinating)",
+              "target": "2x10 (RPE \u22646)",
+              "sets": 2
+            },
+            {
+              "name": "Overhead Dumbbell Triceps Extension",
+              "target": "2x10 (RPE \u22646)",
+              "sets": 2
+            }
+          ]
+        },
+        {
+          "name": "Saturday \u2014 Core + Easy Run",
+          "exercises": [
+            {
+              "name": "Box Jump",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Leg Raise",
+              "target": "3x15",
+              "sets": 3
+            },
+            {
+              "name": "Crunch Machine",
+              "target": "3x15",
+              "sets": 3
+            },
+            {
+              "name": "Weighted Russian Twist",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Single Leg Boat",
+              "target": "3x10 per side",
+              "sets": 3
+            },
+            {
+              "name": "Double Leg Boat",
+              "target": "3x10",
+              "sets": 3
+            },
+            {
+              "name": "Spiderman Plank",
+              "target": "4x10s per side",
+              "sets": 4
+            },
+            {
+              "name": "Easy Run",
+              "target": "15\u201325 min",
+              "sets": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

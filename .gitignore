@@ -5,3 +5,4 @@ __pycache__/
 *.pyo
 *.pyd
 /workout_printable.html
+/workout_v2_printable.html
