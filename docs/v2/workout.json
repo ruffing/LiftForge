@@ -29,9 +29,19 @@
               "sets": 3
             },
             {
+              "name": "Seated Leg Curl",
+              "target": "3x10\u201312 (RPE 7\u20138)",
+              "sets": 3
+            },
+            {
               "name": "Weighted Back Extension",
               "target": "2x12 (RPE 6\u20137)",
               "sets": 2
+            },
+            {
+              "name": "Standing Calf Raise",
+              "target": "3x12\u201315 (RPE 7\u20138)",
+              "sets": 3
             }
           ]
         },
@@ -41,6 +51,11 @@
             {
               "name": "Bench Press",
               "target": "3x10 (RPE 6\u20137)",
+              "sets": 3
+            },
+            {
+              "name": "Chest-Supported Row (or Seated Cable Row)",
+              "target": "3x8\u201310 (RPE 7\u20138)",
               "sets": 3
             },
             {
@@ -70,17 +85,12 @@
           "exercises": [
             {
               "name": "Box Jump",
-              "target": "3x10",
-              "sets": 3
+              "target": "5x3",
+              "sets": 5
             },
             {
               "name": "Leg Raise",
-              "target": "3x15",
-              "sets": 3
-            },
-            {
-              "name": "Crunch Machine",
-              "target": "3x15",
+              "target": "3x12\u201315",
               "sets": 3
             },
             {
@@ -89,19 +99,14 @@
               "sets": 3
             },
             {
-              "name": "Single Leg Boat",
-              "target": "3x10 per side",
-              "sets": 3
-            },
-            {
-              "name": "Double Leg Boat",
-              "target": "3x10",
-              "sets": 3
-            },
-            {
               "name": "Spiderman Plank",
               "target": "4x10s per side",
               "sets": 4
+            },
+            {
+              "name": "Plank",
+              "target": "3x30s",
+              "sets": 3
             },
             {
               "name": "Easy Run",
@@ -125,12 +130,17 @@
             },
             {
               "name": "Bulgarian Split Squat (dumbbell)",
-              "target": "3x10\u201312 per leg (RPE 7\u20138)",
-              "sets": 3
+              "target": "2x10\u201312 per leg (RPE 7\u20138)",
+              "sets": 2
             },
             {
               "name": "Single-Leg Romanian Deadlift",
               "target": "3x10\u201312 per leg (RPE 7\u20138)",
+              "sets": 3
+            },
+            {
+              "name": "Seated Calf Raise",
+              "target": "3x12\u201315 (RPE 7\u20138)",
               "sets": 3
             }
           ]
@@ -144,18 +154,18 @@
               "sets": 3
             },
             {
-              "name": "Overhead Press (seated dumbbell)",
-              "target": "3x8\u201310 (RPE 6\u20137)",
-              "sets": 3
-            },
-            {
               "name": "Pull-Up or Lat Pulldown",
               "target": "3x10\u201312 (RPE 7\u20138)",
               "sets": 3
             },
             {
-              "name": "Incline Dumbbell Press",
-              "target": "3x10\u201312 (RPE 7\u20138)",
+              "name": "Overhead Press (seated dumbbell)",
+              "target": "3x8\u201310 (RPE 6\u20137)",
+              "sets": 3
+            },
+            {
+              "name": "One-Arm Dumbbell Row",
+              "target": "3x10\u201312 per arm (RPE 7\u20138)",
               "sets": 3
             },
             {
@@ -172,6 +182,11 @@
               "name": "Overhead Dumbbell Triceps Extension",
               "target": "3x10\u201312 (RPE 7\u20138)",
               "sets": 3
+            },
+            {
+              "name": "Dead Hang",
+              "target": "3x30s",
+              "sets": 3
             }
           ]
         },
@@ -180,38 +195,28 @@
           "exercises": [
             {
               "name": "Box Jump",
-              "target": "3x10",
-              "sets": 3
+              "target": "5x3",
+              "sets": 5
             },
             {
-              "name": "Leg Raise",
-              "target": "3x15",
+              "name": "Hand Walkout",
+              "target": "3x6",
               "sets": 3
             },
             {
               "name": "Crunch Machine",
-              "target": "3x15",
+              "target": "3x10\u201312",
               "sets": 3
             },
             {
-              "name": "Weighted Russian Twist",
-              "target": "3x10",
-              "sets": 3
+              "name": "Side Plank",
+              "target": "2x30s per side",
+              "sets": 2
             },
             {
-              "name": "Single Leg Boat",
-              "target": "3x10 per side",
+              "name": "Suitcase Carry",
+              "target": "3x30 m per side",
               "sets": 3
-            },
-            {
-              "name": "Double Leg Boat",
-              "target": "3x10",
-              "sets": 3
-            },
-            {
-              "name": "Spiderman Plank",
-              "target": "4x10s per side",
-              "sets": 4
             },
             {
               "name": "Easy Run",
@@ -250,9 +255,19 @@
               "sets": 3
             },
             {
+              "name": "Seated Leg Curl",
+              "target": "3x10\u201312 (RPE 7\u20138)",
+              "sets": 3
+            },
+            {
               "name": "Weighted Back Extension",
               "target": "2x12 (RPE 6\u20137)",
               "sets": 2
+            },
+            {
+              "name": "Standing Calf Raise",
+              "target": "3x12\u201315 (RPE 7\u20138)",
+              "sets": 3
             }
           ]
         },
@@ -262,6 +277,11 @@
             {
               "name": "Bench Press",
               "target": "3x8 (RPE 7)",
+              "sets": 3
+            },
+            {
+              "name": "Chest-Supported Row (or Seated Cable Row)",
+              "target": "3x8\u201310 (RPE 7\u20138)",
               "sets": 3
             },
             {
@@ -291,17 +311,12 @@
           "exercises": [
             {
               "name": "Box Jump",
-              "target": "3x10",
-              "sets": 3
+              "target": "5x3",
+              "sets": 5
             },
             {
               "name": "Leg Raise",
-              "target": "3x15",
-              "sets": 3
-            },
-            {
-              "name": "Crunch Machine",
-              "target": "3x15",
+              "target": "3x12\u201315",
               "sets": 3
             },
             {
@@ -310,19 +325,14 @@
               "sets": 3
             },
             {
-              "name": "Single Leg Boat",
-              "target": "3x10 per side",
-              "sets": 3
-            },
-            {
-              "name": "Double Leg Boat",
-              "target": "3x10",
-              "sets": 3
-            },
-            {
               "name": "Spiderman Plank",
               "target": "4x10s per side",
               "sets": 4
+            },
+            {
+              "name": "Plank",
+              "target": "3x30s",
+              "sets": 3
             },
             {
               "name": "Easy Run",
@@ -346,8 +356,8 @@
             },
             {
               "name": "Bulgarian Split Squat (dumbbell)",
-              "target": "3x10\u201312 per leg (RPE 7\u20138)",
-              "sets": 3
+              "target": "2x10\u201312 per leg (RPE 7\u20138)",
+              "sets": 2
             },
             {
               "name": "Single-Leg Romanian Deadlift",
@@ -355,9 +365,9 @@
               "sets": 3
             },
             {
-              "name": "Hanging Leg Raise",
-              "target": "2x12\u201315",
-              "sets": 2
+              "name": "Seated Calf Raise",
+              "target": "3x12\u201315 (RPE 7\u20138)",
+              "sets": 3
             }
           ]
         },
@@ -370,18 +380,18 @@
               "sets": 3
             },
             {
-              "name": "Overhead Press (seated dumbbell)",
-              "target": "3x8\u201310 (RPE 6\u20137)",
-              "sets": 3
-            },
-            {
               "name": "Pull-Up or Lat Pulldown",
               "target": "3x10\u201312 (RPE 7\u20138)",
               "sets": 3
             },
             {
-              "name": "Incline Dumbbell Press",
-              "target": "3x10\u201312 (RPE 7\u20138)",
+              "name": "Overhead Press (seated dumbbell)",
+              "target": "3x8\u201310 (RPE 6\u20137)",
+              "sets": 3
+            },
+            {
+              "name": "One-Arm Dumbbell Row",
+              "target": "3x10\u201312 per arm (RPE 7\u20138)",
               "sets": 3
             },
             {
@@ -398,6 +408,11 @@
               "name": "Overhead Dumbbell Triceps Extension",
               "target": "3x10\u201312 (RPE 7\u20138)",
               "sets": 3
+            },
+            {
+              "name": "Dead Hang",
+              "target": "3x30s",
+              "sets": 3
             }
           ]
         },
@@ -406,38 +421,28 @@
           "exercises": [
             {
               "name": "Box Jump",
-              "target": "3x10",
-              "sets": 3
+              "target": "5x3",
+              "sets": 5
             },
             {
-              "name": "Leg Raise",
-              "target": "3x15",
+              "name": "Hand Walkout",
+              "target": "3x6",
               "sets": 3
             },
             {
               "name": "Crunch Machine",
-              "target": "3x15",
+              "target": "3x10\u201312",
               "sets": 3
             },
             {
-              "name": "Weighted Russian Twist",
-              "target": "3x10",
-              "sets": 3
+              "name": "Side Plank",
+              "target": "2x30s per side",
+              "sets": 2
             },
             {
-              "name": "Single Leg Boat",
-              "target": "3x10 per side",
+              "name": "Suitcase Carry",
+              "target": "3x30 m per side",
               "sets": 3
-            },
-            {
-              "name": "Double Leg Boat",
-              "target": "3x10",
-              "sets": 3
-            },
-            {
-              "name": "Spiderman Plank",
-              "target": "4x10s per side",
-              "sets": 4
             },
             {
               "name": "Easy Run",
@@ -476,9 +481,19 @@
               "sets": 3
             },
             {
+              "name": "Seated Leg Curl",
+              "target": "3x10\u201312 (RPE 7\u20138)",
+              "sets": 3
+            },
+            {
               "name": "Weighted Back Extension",
               "target": "2x12 (RPE 6\u20137)",
               "sets": 2
+            },
+            {
+              "name": "Standing Calf Raise",
+              "target": "3x12\u201315 (RPE 7\u20138)",
+              "sets": 3
             }
           ]
         },
@@ -489,6 +504,11 @@
               "name": "Bench Press",
               "target": "4x6 (RPE 7\u20138)",
               "sets": 4
+            },
+            {
+              "name": "Chest-Supported Row (or Seated Cable Row)",
+              "target": "3x8\u201310 (RPE 7\u20138)",
+              "sets": 3
             },
             {
               "name": "Overhead Press (standing barbell)",
@@ -517,17 +537,12 @@
           "exercises": [
             {
               "name": "Box Jump",
-              "target": "3x10",
-              "sets": 3
+              "target": "5x3",
+              "sets": 5
             },
             {
               "name": "Leg Raise",
-              "target": "3x15",
-              "sets": 3
-            },
-            {
-              "name": "Crunch Machine",
-              "target": "3x15",
+              "target": "3x12\u201315",
               "sets": 3
             },
             {
@@ -536,19 +551,14 @@
               "sets": 3
             },
             {
-              "name": "Single Leg Boat",
-              "target": "3x10 per side",
-              "sets": 3
-            },
-            {
-              "name": "Double Leg Boat",
-              "target": "3x10",
-              "sets": 3
-            },
-            {
               "name": "Spiderman Plank",
               "target": "4x10s per side",
               "sets": 4
+            },
+            {
+              "name": "Plank",
+              "target": "3x30s",
+              "sets": 3
             },
             {
               "name": "Easy Run",
@@ -572,8 +582,8 @@
             },
             {
               "name": "Bulgarian Split Squat (dumbbell)",
-              "target": "3x10\u201312 per leg (RPE 7\u20138)",
-              "sets": 3
+              "target": "2x10\u201312 per leg (RPE 7\u20138)",
+              "sets": 2
             },
             {
               "name": "Single-Leg Romanian Deadlift",
@@ -581,9 +591,9 @@
               "sets": 3
             },
             {
-              "name": "Hanging Leg Raise",
-              "target": "2x12\u201315",
-              "sets": 2
+              "name": "Seated Calf Raise",
+              "target": "3x12\u201315 (RPE 7\u20138)",
+              "sets": 3
             }
           ]
         },
@@ -596,18 +606,18 @@
               "sets": 3
             },
             {
-              "name": "Overhead Press (seated dumbbell)",
-              "target": "3x8\u201310 (RPE 6\u20137)",
-              "sets": 3
-            },
-            {
               "name": "Pull-Up or Lat Pulldown",
               "target": "3x10\u201312 (RPE 7\u20138)",
               "sets": 3
             },
             {
-              "name": "Incline Dumbbell Press",
-              "target": "3x10\u201312 (RPE 7\u20138)",
+              "name": "Overhead Press (seated dumbbell)",
+              "target": "3x8\u201310 (RPE 6\u20137)",
+              "sets": 3
+            },
+            {
+              "name": "One-Arm Dumbbell Row",
+              "target": "3x10\u201312 per arm (RPE 7\u20138)",
               "sets": 3
             },
             {
@@ -624,6 +634,11 @@
               "name": "Overhead Dumbbell Triceps Extension",
               "target": "3x10\u201312 (RPE 7\u20138)",
               "sets": 3
+            },
+            {
+              "name": "Dead Hang",
+              "target": "3x30s",
+              "sets": 3
             }
           ]
         },
@@ -632,38 +647,28 @@
           "exercises": [
             {
               "name": "Box Jump",
-              "target": "3x10",
-              "sets": 3
+              "target": "5x3",
+              "sets": 5
             },
             {
-              "name": "Leg Raise",
-              "target": "3x15",
+              "name": "Hand Walkout",
+              "target": "3x6",
               "sets": 3
             },
             {
               "name": "Crunch Machine",
-              "target": "3x15",
+              "target": "3x10\u201312",
               "sets": 3
             },
             {
-              "name": "Weighted Russian Twist",
-              "target": "3x10",
-              "sets": 3
+              "name": "Side Plank",
+              "target": "2x30s per side",
+              "sets": 2
             },
             {
-              "name": "Single Leg Boat",
-              "target": "3x10 per side",
+              "name": "Suitcase Carry",
+              "target": "3x30 m per side",
               "sets": 3
-            },
-            {
-              "name": "Double Leg Boat",
-              "target": "3x10",
-              "sets": 3
-            },
-            {
-              "name": "Spiderman Plank",
-              "target": "4x10s per side",
-              "sets": 4
             },
             {
               "name": "Easy Run",
@@ -702,8 +707,18 @@
               "sets": 2
             },
             {
+              "name": "Seated Leg Curl",
+              "target": "2x10 (RPE 5\u20136)",
+              "sets": 2
+            },
+            {
               "name": "Weighted Back Extension",
               "target": "2x10 (RPE 5\u20136)",
+              "sets": 2
+            },
+            {
+              "name": "Standing Calf Raise",
+              "target": "2x12 (RPE 5\u20136)",
               "sets": 2
             }
           ]
@@ -714,6 +729,11 @@
             {
               "name": "Bench Press",
               "target": "2x5 (RPE 5)",
+              "sets": 2
+            },
+            {
+              "name": "Chest-Supported Row (or Seated Cable Row)",
+              "target": "2x10 (RPE 5\u20136)",
               "sets": 2
             },
             {
@@ -743,38 +763,28 @@
           "exercises": [
             {
               "name": "Box Jump",
-              "target": "3x10",
+              "target": "3x3",
               "sets": 3
             },
             {
               "name": "Leg Raise",
-              "target": "3x15",
-              "sets": 3
-            },
-            {
-              "name": "Crunch Machine",
-              "target": "3x15",
-              "sets": 3
+              "target": "2x12",
+              "sets": 2
             },
             {
               "name": "Weighted Russian Twist",
-              "target": "3x10",
-              "sets": 3
-            },
-            {
-              "name": "Single Leg Boat",
-              "target": "3x10 per side",
-              "sets": 3
-            },
-            {
-              "name": "Double Leg Boat",
-              "target": "3x10",
-              "sets": 3
+              "target": "2x10",
+              "sets": 2
             },
             {
               "name": "Spiderman Plank",
-              "target": "4x10s per side",
-              "sets": 4
+              "target": "2x10s per side",
+              "sets": 2
+            },
+            {
+              "name": "Plank",
+              "target": "2x30s",
+              "sets": 2
             },
             {
               "name": "Easy Run",
@@ -807,8 +817,8 @@
               "sets": 2
             },
             {
-              "name": "Hanging Leg Raise",
-              "target": "2x10",
+              "name": "Seated Calf Raise",
+              "target": "2x12 (RPE 5\u20136)",
               "sets": 2
             }
           ]
@@ -822,18 +832,18 @@
               "sets": 2
             },
             {
-              "name": "Overhead Press (seated dumbbell)",
-              "target": "2x8\u201310 (RPE 5\u20136)",
-              "sets": 2
-            },
-            {
               "name": "Pull-Up or Lat Pulldown",
               "target": "2x10 (RPE 5\u20136)",
               "sets": 2
             },
             {
-              "name": "Incline Dumbbell Press",
-              "target": "2x10 (RPE 5\u20136)",
+              "name": "Overhead Press (seated dumbbell)",
+              "target": "2x8\u201310 (RPE 5\u20136)",
+              "sets": 2
+            },
+            {
+              "name": "One-Arm Dumbbell Row",
+              "target": "2x10 per arm (RPE 5\u20136)",
               "sets": 2
             },
             {
@@ -850,6 +860,11 @@
               "name": "Overhead Dumbbell Triceps Extension",
               "target": "2x10 (RPE 5\u20136)",
               "sets": 2
+            },
+            {
+              "name": "Dead Hang",
+              "target": "2x30s",
+              "sets": 2
             }
           ]
         },
@@ -858,38 +873,28 @@
           "exercises": [
             {
               "name": "Box Jump",
-              "target": "3x10",
+              "target": "3x3",
               "sets": 3
             },
             {
-              "name": "Leg Raise",
-              "target": "3x15",
-              "sets": 3
+              "name": "Hand Walkout",
+              "target": "2x5",
+              "sets": 2
             },
             {
               "name": "Crunch Machine",
-              "target": "3x15",
-              "sets": 3
+              "target": "2x10",
+              "sets": 2
             },
             {
-              "name": "Weighted Russian Twist",
-              "target": "3x10",
-              "sets": 3
+              "name": "Side Plank",
+              "target": "2x20s per side",
+              "sets": 2
             },
             {
-              "name": "Single Leg Boat",
-              "target": "3x10 per side",
-              "sets": 3
-            },
-            {
-              "name": "Double Leg Boat",
-              "target": "3x10",
-              "sets": 3
-            },
-            {
-              "name": "Spiderman Plank",
-              "target": "4x10s per side",
-              "sets": 4
+              "name": "Suitcase Carry",
+              "target": "2x30 m per side",
+              "sets": 2
             },
             {
               "name": "Easy Run",
@@ -928,9 +933,19 @@
               "sets": 3
             },
             {
+              "name": "Seated Leg Curl",
+              "target": "3x8\u201310 (RPE 7\u20138)",
+              "sets": 3
+            },
+            {
               "name": "Weighted Back Extension",
               "target": "2x12 (RPE 6\u20137)",
               "sets": 2
+            },
+            {
+              "name": "Standing Calf Raise",
+              "target": "3x10\u201312 (RPE 7\u20138)",
+              "sets": 3
             }
           ]
         },
@@ -941,6 +956,11 @@
               "name": "Bench Press",
               "target": "4x5 (RPE 7\u20138)",
               "sets": 4
+            },
+            {
+              "name": "Chest-Supported Row (or Seated Cable Row)",
+              "target": "3x8\u201310 (RPE 7\u20138)",
+              "sets": 3
             },
             {
               "name": "Overhead Press (standing barbell)",
@@ -969,38 +989,28 @@
           "exercises": [
             {
               "name": "Box Jump",
-              "target": "3x10",
-              "sets": 3
+              "target": "4x3",
+              "sets": 4
             },
             {
               "name": "Leg Raise",
-              "target": "3x15",
-              "sets": 3
-            },
-            {
-              "name": "Crunch Machine",
-              "target": "3x15",
+              "target": "3x12\u201315",
               "sets": 3
             },
             {
               "name": "Weighted Russian Twist",
-              "target": "3x10",
-              "sets": 3
-            },
-            {
-              "name": "Single Leg Boat",
-              "target": "3x10 per side",
-              "sets": 3
-            },
-            {
-              "name": "Double Leg Boat",
-              "target": "3x10",
+              "target": "3x12",
               "sets": 3
             },
             {
               "name": "Spiderman Plank",
-              "target": "4x10s per side",
+              "target": "4x15s per side",
               "sets": 4
+            },
+            {
+              "name": "Plank",
+              "target": "3x45s",
+              "sets": 3
             },
             {
               "name": "Easy Run",
@@ -1024,8 +1034,8 @@
             },
             {
               "name": "Bulgarian Split Squat (dumbbell)",
-              "target": "3x8\u201310 per leg (RPE 7\u20138)",
-              "sets": 3
+              "target": "2x8\u201310 per leg (RPE 7\u20138)",
+              "sets": 2
             },
             {
               "name": "Single-Leg Romanian Deadlift",
@@ -1033,9 +1043,9 @@
               "sets": 3
             },
             {
-              "name": "Hanging Leg Raise",
-              "target": "2x12\u201315",
-              "sets": 2
+              "name": "Seated Calf Raise",
+              "target": "3x10\u201312 (RPE 7\u20138)",
+              "sets": 3
             }
           ]
         },
@@ -1048,18 +1058,18 @@
               "sets": 3
             },
             {
-              "name": "Overhead Press (seated dumbbell)",
-              "target": "3x8\u201310 (RPE 6\u20137)",
-              "sets": 3
-            },
-            {
               "name": "Pull-Up or Lat Pulldown",
               "target": "3x8\u201310 (RPE 7\u20138)",
               "sets": 3
             },
             {
-              "name": "Incline Dumbbell Press",
-              "target": "3x8\u201310 (RPE 7\u20138)",
+              "name": "Overhead Press (seated dumbbell)",
+              "target": "3x8\u201310 (RPE 6\u20137)",
+              "sets": 3
+            },
+            {
+              "name": "One-Arm Dumbbell Row",
+              "target": "3x8\u201310 per arm (RPE 7\u20138)",
               "sets": 3
             },
             {
@@ -1076,6 +1086,11 @@
               "name": "Overhead Dumbbell Triceps Extension",
               "target": "3x8\u201310 (RPE 7\u20138)",
               "sets": 3
+            },
+            {
+              "name": "Dead Hang",
+              "target": "3x45s",
+              "sets": 3
             }
           ]
         },
@@ -1084,38 +1099,28 @@
           "exercises": [
             {
               "name": "Box Jump",
-              "target": "3x10",
-              "sets": 3
+              "target": "4x3",
+              "sets": 4
             },
             {
-              "name": "Leg Raise",
-              "target": "3x15",
+              "name": "Hand Walkout",
+              "target": "3x8",
               "sets": 3
             },
             {
               "name": "Crunch Machine",
-              "target": "3x15",
+              "target": "3x10\u201312",
               "sets": 3
             },
             {
-              "name": "Weighted Russian Twist",
-              "target": "3x10",
-              "sets": 3
+              "name": "Side Plank",
+              "target": "2x45s per side",
+              "sets": 2
             },
             {
-              "name": "Single Leg Boat",
-              "target": "3x10 per side",
+              "name": "Suitcase Carry",
+              "target": "3x40 m per side",
               "sets": 3
-            },
-            {
-              "name": "Double Leg Boat",
-              "target": "3x10",
-              "sets": 3
-            },
-            {
-              "name": "Spiderman Plank",
-              "target": "4x10s per side",
-              "sets": 4
             },
             {
               "name": "Easy Run",
@@ -1154,9 +1159,19 @@
               "sets": 3
             },
             {
+              "name": "Seated Leg Curl",
+              "target": "3x8\u201310 (RPE 7\u20138)",
+              "sets": 3
+            },
+            {
               "name": "Weighted Back Extension",
               "target": "2x12 (RPE 6\u20137)",
               "sets": 2
+            },
+            {
+              "name": "Standing Calf Raise",
+              "target": "3x10\u201312 (RPE 7\u20138)",
+              "sets": 3
             }
           ]
         },
@@ -1167,6 +1182,11 @@
               "name": "Bench Press",
               "target": "5x3 (RPE 8)",
               "sets": 5
+            },
+            {
+              "name": "Chest-Supported Row (or Seated Cable Row)",
+              "target": "3x8\u201310 (RPE 7\u20138)",
+              "sets": 3
             },
             {
               "name": "Overhead Press (standing barbell)",
@@ -1195,38 +1215,28 @@
           "exercises": [
             {
               "name": "Box Jump",
-              "target": "3x10",
-              "sets": 3
+              "target": "4x3",
+              "sets": 4
             },
             {
               "name": "Leg Raise",
-              "target": "3x15",
-              "sets": 3
-            },
-            {
-              "name": "Crunch Machine",
-              "target": "3x15",
+              "target": "3x12\u201315",
               "sets": 3
             },
             {
               "name": "Weighted Russian Twist",
-              "target": "3x10",
-              "sets": 3
-            },
-            {
-              "name": "Single Leg Boat",
-              "target": "3x10 per side",
-              "sets": 3
-            },
-            {
-              "name": "Double Leg Boat",
-              "target": "3x10",
+              "target": "3x12",
               "sets": 3
             },
             {
               "name": "Spiderman Plank",
-              "target": "4x10s per side",
+              "target": "4x15s per side",
               "sets": 4
+            },
+            {
+              "name": "Plank",
+              "target": "3x45s",
+              "sets": 3
             },
             {
               "name": "Easy Run",
@@ -1250,8 +1260,8 @@
             },
             {
               "name": "Bulgarian Split Squat (dumbbell)",
-              "target": "3x8\u201310 per leg (RPE 7\u20138)",
-              "sets": 3
+              "target": "2x8\u201310 per leg (RPE 7\u20138)",
+              "sets": 2
             },
             {
               "name": "Single-Leg Romanian Deadlift",
@@ -1259,9 +1269,9 @@
               "sets": 3
             },
             {
-              "name": "Hanging Leg Raise",
-              "target": "2x12\u201315",
-              "sets": 2
+              "name": "Seated Calf Raise",
+              "target": "3x10\u201312 (RPE 7\u20138)",
+              "sets": 3
             }
           ]
         },
@@ -1274,18 +1284,18 @@
               "sets": 3
             },
             {
-              "name": "Overhead Press (seated dumbbell)",
-              "target": "3x8\u201310 (RPE 6\u20137)",
-              "sets": 3
-            },
-            {
               "name": "Pull-Up or Lat Pulldown",
               "target": "3x8\u201310 (RPE 7\u20138)",
               "sets": 3
             },
             {
-              "name": "Incline Dumbbell Press",
-              "target": "3x8\u201310 (RPE 7\u20138)",
+              "name": "Overhead Press (seated dumbbell)",
+              "target": "3x8\u201310 (RPE 6\u20137)",
+              "sets": 3
+            },
+            {
+              "name": "One-Arm Dumbbell Row",
+              "target": "3x8\u201310 per arm (RPE 7\u20138)",
               "sets": 3
             },
             {
@@ -1302,6 +1312,11 @@
               "name": "Overhead Dumbbell Triceps Extension",
               "target": "3x8\u201310 (RPE 7\u20138)",
               "sets": 3
+            },
+            {
+              "name": "Dead Hang",
+              "target": "3x45s",
+              "sets": 3
             }
           ]
         },
@@ -1310,38 +1325,28 @@
           "exercises": [
             {
               "name": "Box Jump",
-              "target": "3x10",
-              "sets": 3
+              "target": "4x3",
+              "sets": 4
             },
             {
-              "name": "Leg Raise",
-              "target": "3x15",
+              "name": "Hand Walkout",
+              "target": "3x8",
               "sets": 3
             },
             {
               "name": "Crunch Machine",
-              "target": "3x15",
+              "target": "3x10\u201312",
               "sets": 3
             },
             {
-              "name": "Weighted Russian Twist",
-              "target": "3x10",
-              "sets": 3
+              "name": "Side Plank",
+              "target": "2x45s per side",
+              "sets": 2
             },
             {
-              "name": "Single Leg Boat",
-              "target": "3x10 per side",
+              "name": "Suitcase Carry",
+              "target": "3x40 m per side",
               "sets": 3
-            },
-            {
-              "name": "Double Leg Boat",
-              "target": "3x10",
-              "sets": 3
-            },
-            {
-              "name": "Spiderman Plank",
-              "target": "4x10s per side",
-              "sets": 4
             },
             {
               "name": "Easy Run",
@@ -1361,8 +1366,8 @@
           "exercises": [
             {
               "name": "Back Squat",
-              "target": "4x2 (RPE 8\u20139)",
-              "sets": 4
+              "target": "3x2 (RPE 8)",
+              "sets": 3
             },
             {
               "name": "Romanian Deadlift",
@@ -1371,17 +1376,27 @@
             },
             {
               "name": "Leg Press",
-              "target": "2\u20133x8\u201310 (RPE 7)",
-              "sets": 3
+              "target": "2x8\u201310 (RPE 6\u20137)",
+              "sets": 2
             },
             {
               "name": "Walking Lunge (dumbbell)",
-              "target": "2\u20133x8\u201310 per leg (RPE 7)",
-              "sets": 3
+              "target": "2x8\u201310 per leg (RPE 6\u20137)",
+              "sets": 2
+            },
+            {
+              "name": "Seated Leg Curl",
+              "target": "2x8\u201310 (RPE 6\u20137)",
+              "sets": 2
             },
             {
               "name": "Weighted Back Extension",
-              "target": "2x12 (RPE 6\u20137)",
+              "target": "2x10 (RPE 6)",
+              "sets": 2
+            },
+            {
+              "name": "Standing Calf Raise",
+              "target": "2x10\u201312 (RPE 6\u20137)",
               "sets": 2
             }
           ]
@@ -1391,28 +1406,33 @@
           "exercises": [
             {
               "name": "Bench Press",
-              "target": "4x2 (RPE 8\u20139)",
-              "sets": 4
+              "target": "3x2 (RPE 8)",
+              "sets": 3
+            },
+            {
+              "name": "Chest-Supported Row (or Seated Cable Row)",
+              "target": "2x8\u201310 (RPE 6\u20137)",
+              "sets": 2
             },
             {
               "name": "Overhead Press (standing barbell)",
-              "target": "3x8\u201310 (RPE 6\u20137)",
-              "sets": 3
+              "target": "2x8\u201310 (RPE 6)",
+              "sets": 2
             },
             {
               "name": "Lateral Raise",
-              "target": "2\u20133x8\u201310 (RPE 7)",
-              "sets": 3
+              "target": "2x8\u201310 (RPE 6\u20137)",
+              "sets": 2
             },
             {
               "name": "EZ-Bar Curl",
-              "target": "2\u20133x8\u201310 (RPE 7)",
-              "sets": 3
+              "target": "2x8\u201310 (RPE 6\u20137)",
+              "sets": 2
             },
             {
               "name": "Cable Triceps Pushdown",
-              "target": "2\u20133x8\u201310 (RPE 7)",
-              "sets": 3
+              "target": "2x8\u201310 (RPE 6\u20137)",
+              "sets": 2
             }
           ]
         },
@@ -1421,42 +1441,32 @@
           "exercises": [
             {
               "name": "Box Jump",
-              "target": "3x10",
+              "target": "3x3",
               "sets": 3
             },
             {
               "name": "Leg Raise",
-              "target": "3x15",
-              "sets": 3
-            },
-            {
-              "name": "Crunch Machine",
-              "target": "3x15",
-              "sets": 3
+              "target": "2x12",
+              "sets": 2
             },
             {
               "name": "Weighted Russian Twist",
-              "target": "3x10",
-              "sets": 3
-            },
-            {
-              "name": "Single Leg Boat",
-              "target": "3x10 per side",
-              "sets": 3
-            },
-            {
-              "name": "Double Leg Boat",
-              "target": "3x10",
-              "sets": 3
+              "target": "2x10",
+              "sets": 2
             },
             {
               "name": "Spiderman Plank",
-              "target": "4x10s per side",
-              "sets": 4
+              "target": "2x10s per side",
+              "sets": 2
+            },
+            {
+              "name": "Plank",
+              "target": "2x30s",
+              "sets": 2
             },
             {
               "name": "Easy Run",
-              "target": "15\u201325 min",
+              "target": "15\u201320 min",
               "sets": 1
             }
           ]
@@ -1466,8 +1476,8 @@
           "exercises": [
             {
               "name": "Deadlift",
-              "target": "4x2 (RPE 8\u20139)",
-              "sets": 4
+              "target": "3x2 (RPE 8)",
+              "sets": 3
             },
             {
               "name": "Front Squat",
@@ -1476,17 +1486,17 @@
             },
             {
               "name": "Bulgarian Split Squat (dumbbell)",
-              "target": "2\u20133x8\u201310 per leg (RPE 7)",
-              "sets": 3
+              "target": "2x8\u201310 per leg (RPE 6\u20137)",
+              "sets": 2
             },
             {
               "name": "Single-Leg Romanian Deadlift",
-              "target": "2\u20133x8\u201310 per leg (RPE 7)",
-              "sets": 3
+              "target": "2x8\u201310 per leg (RPE 6\u20137)",
+              "sets": 2
             },
             {
-              "name": "Hanging Leg Raise",
-              "target": "2x12\u201315",
+              "name": "Seated Calf Raise",
+              "target": "2x10\u201312 (RPE 6\u20137)",
               "sets": 2
             }
           ]
@@ -1500,34 +1510,39 @@
               "sets": 2
             },
             {
-              "name": "Overhead Press (seated dumbbell)",
-              "target": "3x8\u201310 (RPE 6\u20137)",
-              "sets": 3
-            },
-            {
               "name": "Pull-Up or Lat Pulldown",
-              "target": "2\u20133x8\u201310 (RPE 7)",
-              "sets": 3
+              "target": "2x8\u201310 (RPE 6\u20137)",
+              "sets": 2
             },
             {
-              "name": "Incline Dumbbell Press",
-              "target": "2\u20133x8\u201310 (RPE 7)",
-              "sets": 3
+              "name": "Overhead Press (seated dumbbell)",
+              "target": "2x8\u201310 (RPE 6)",
+              "sets": 2
+            },
+            {
+              "name": "One-Arm Dumbbell Row",
+              "target": "2x8\u201310 per arm (RPE 6\u20137)",
+              "sets": 2
             },
             {
               "name": "Rear-Delt Fly (or Face Pull)",
-              "target": "2\u20133x8\u201310 (RPE 7)",
-              "sets": 3
+              "target": "2x8\u201310 (RPE 6\u20137)",
+              "sets": 2
             },
             {
               "name": "Incline Dumbbell Curl (supinating)",
-              "target": "2\u20133x8\u201310 (RPE 7)",
-              "sets": 3
+              "target": "2x8\u201310 (RPE 6\u20137)",
+              "sets": 2
             },
             {
               "name": "Overhead Dumbbell Triceps Extension",
-              "target": "2\u20133x8\u201310 (RPE 7)",
-              "sets": 3
+              "target": "2x8\u201310 (RPE 6\u20137)",
+              "sets": 2
+            },
+            {
+              "name": "Dead Hang",
+              "target": "2x30s",
+              "sets": 2
             }
           ]
         },
@@ -1536,42 +1551,32 @@
           "exercises": [
             {
               "name": "Box Jump",
-              "target": "3x10",
+              "target": "3x3",
               "sets": 3
             },
             {
-              "name": "Leg Raise",
-              "target": "3x15",
-              "sets": 3
+              "name": "Hand Walkout",
+              "target": "2x5",
+              "sets": 2
             },
             {
               "name": "Crunch Machine",
-              "target": "3x15",
-              "sets": 3
+              "target": "2x10",
+              "sets": 2
             },
             {
-              "name": "Weighted Russian Twist",
-              "target": "3x10",
-              "sets": 3
+              "name": "Side Plank",
+              "target": "2x20s per side",
+              "sets": 2
             },
             {
-              "name": "Single Leg Boat",
-              "target": "3x10 per side",
-              "sets": 3
-            },
-            {
-              "name": "Double Leg Boat",
-              "target": "3x10",
-              "sets": 3
-            },
-            {
-              "name": "Spiderman Plank",
-              "target": "4x10s per side",
-              "sets": 4
+              "name": "Suitcase Carry",
+              "target": "2x30 m per side",
+              "sets": 2
             },
             {
               "name": "Easy Run",
-              "target": "15\u201325 min",
+              "target": "15\u201320 min",
               "sets": 1
             }
           ]
@@ -1606,7 +1611,17 @@
               "sets": 1
             },
             {
+              "name": "Seated Leg Curl",
+              "target": "optional \u2014 skip or keep very light",
+              "sets": 1
+            },
+            {
               "name": "Weighted Back Extension",
+              "target": "optional \u2014 skip or keep very light",
+              "sets": 1
+            },
+            {
+              "name": "Standing Calf Raise",
               "target": "optional \u2014 skip or keep very light",
               "sets": 1
             }
@@ -1618,6 +1633,11 @@
             {
               "name": "Bench Press (work up to 1-rep max)",
               "target": "1x1 (RPE 9\u20139.5)",
+              "sets": 1
+            },
+            {
+              "name": "Chest-Supported Row (or Seated Cable Row)",
+              "target": "optional \u2014 skip or keep very light",
               "sets": 1
             },
             {
@@ -1647,38 +1667,28 @@
           "exercises": [
             {
               "name": "Box Jump",
-              "target": "3x10",
+              "target": "3x3",
               "sets": 3
             },
             {
               "name": "Leg Raise",
-              "target": "3x15",
-              "sets": 3
-            },
-            {
-              "name": "Crunch Machine",
-              "target": "3x15",
-              "sets": 3
+              "target": "2x12",
+              "sets": 2
             },
             {
               "name": "Weighted Russian Twist",
-              "target": "3x10",
-              "sets": 3
-            },
-            {
-              "name": "Single Leg Boat",
-              "target": "3x10 per side",
-              "sets": 3
-            },
-            {
-              "name": "Double Leg Boat",
-              "target": "3x10",
-              "sets": 3
+              "target": "2x10",
+              "sets": 2
             },
             {
               "name": "Spiderman Plank",
-              "target": "4x10s per side",
-              "sets": 4
+              "target": "2x10s per side",
+              "sets": 2
+            },
+            {
+              "name": "Plank",
+              "target": "2x30s",
+              "sets": 2
             },
             {
               "name": "Easy Run",
@@ -1711,7 +1721,7 @@
               "sets": 1
             },
             {
-              "name": "Hanging Leg Raise",
+              "name": "Seated Calf Raise",
               "target": "optional \u2014 skip or keep very light",
               "sets": 1
             }
@@ -1723,6 +1733,11 @@
             {
               "name": "Overhead Press (seated dumbbell)",
               "target": "2x10 (RPE \u22646)",
+              "sets": 2
+            },
+            {
+              "name": "One-Arm Dumbbell Row",
+              "target": "2x10 per arm (RPE \u22646)",
               "sets": 2
             },
             {
@@ -1739,6 +1754,11 @@
               "name": "Overhead Dumbbell Triceps Extension",
               "target": "2x10 (RPE \u22646)",
               "sets": 2
+            },
+            {
+              "name": "Dead Hang",
+              "target": "2x30s",
+              "sets": 2
             }
           ]
         },
@@ -1747,38 +1767,28 @@
           "exercises": [
             {
               "name": "Box Jump",
-              "target": "3x10",
+              "target": "3x3",
               "sets": 3
             },
             {
-              "name": "Leg Raise",
-              "target": "3x15",
-              "sets": 3
+              "name": "Hand Walkout",
+              "target": "2x5",
+              "sets": 2
             },
             {
               "name": "Crunch Machine",
-              "target": "3x15",
-              "sets": 3
+              "target": "2x10",
+              "sets": 2
             },
             {
-              "name": "Weighted Russian Twist",
-              "target": "3x10",
-              "sets": 3
+              "name": "Side Plank",
+              "target": "2x20s per side",
+              "sets": 2
             },
             {
-              "name": "Single Leg Boat",
-              "target": "3x10 per side",
-              "sets": 3
-            },
-            {
-              "name": "Double Leg Boat",
-              "target": "3x10",
-              "sets": 3
-            },
-            {
-              "name": "Spiderman Plank",
-              "target": "4x10s per side",
-              "sets": 4
+              "name": "Suitcase Carry",
+              "target": "2x30 m per side",
+              "sets": 2
             },
             {
               "name": "Easy Run",
