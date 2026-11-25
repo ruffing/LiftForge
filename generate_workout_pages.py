@@ -23,7 +23,7 @@ EXERCISE_RE = re.compile(r"^\s*\d+\.\s+(.*?)\s*$")
 DASH_SPLIT_RE = re.compile(r"\s+[\u2013\u2014-]\s+")
 BOLD_RE = re.compile(r"\*\*(.*?)\*\*")
 ITALIC_RE = re.compile(r"\*(.*?)\*")
-SET_COUNT_RE = re.compile(r"^(?:\d+\s*[\u2013-]\s*)?(\d+)\s*[xX]\s*\d+")
+SET_COUNT_RE = re.compile(r"^(?:\d+\s*[\u2013-]\s*)?(\d+)\s*[xX]\s*(?:\d+|max\b)", re.IGNORECASE)
 SET_WORD_RE = re.compile(r"^(\d+)\s+set\b", re.IGNORECASE)
 
 
@@ -85,7 +85,7 @@ def parse_workout_markdown(markdown_text: str) -> list[dict[str, Any]]:
 
 
 def infer_set_count(target: str) -> int:
-    """Infer number of sets from target text (e.g., 3x10 -> 3, 2–3x8 -> 3)."""
+    """Infer number of sets from target text (e.g., 3x10 -> 3, 2–3x8 -> 3, 4x max -> 4)."""
     cleaned = target.strip()
     if not cleaned:
         return 1
@@ -290,8 +290,8 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument(
         "--input",
-        default="workout.md",
-        help="Path to input markdown file (default: workout.md)",
+        default="huberman/workout.md",
+        help="Path to input markdown file (default: huberman/workout.md)",
     )
     parser.add_argument(
         "--output",
@@ -306,7 +306,7 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument(
         "--title",
-        default="Workout Log Pages",
+        default="Lift Log",
         help="Title for generated HTML document",
     )
     parser.add_argument(

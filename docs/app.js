@@ -3,7 +3,7 @@
 
   // Pages can override these via window.LIFTLOG_CONFIG to host a separate program.
   const CONFIG = {
-    storageKey: "liftlog:v1",
+    storageKey: "liftlog:v2",
     dataUrl: "workout.json",
     dataCacheKey: "liftlog:data-cache",
     exportPrefix: "liftlog-export",
