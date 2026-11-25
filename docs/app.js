@@ -22,6 +22,7 @@
   const tplDayCard = document.getElementById("tpl-day-card");
   const tplExercise = document.getElementById("tpl-exercise");
   const tplSetRow = document.getElementById("tpl-set-row");
+  const tplActivityRow = document.getElementById("tpl-activity-row");
 
   /** @type {{title: string, weeks: Array}} */
   let workoutData = null;
@@ -59,12 +60,36 @@
     saveStore();
   }
 
-  function findPreviousWeight(weekIdx, dayIdx, exIdx, setIdx) {
+  function findPrevious(field, weekIdx, dayIdx, exIdx, setIdx) {
     for (let c = store.currentCycle - 1; c >= 1; c--) {
       const log = getSetLog(c, weekIdx, dayIdx, exIdx, setIdx);
-      if (log && log.weight) return log.weight;
+      if (log && log[field]) return log[field];
     }
     return null;
+  }
+
+  function renderActivityRow(exIdx) {
+    const rowNode = tplActivityRow.content.cloneNode(true);
+    const row = rowNode.querySelector(".activity-row");
+    const noteInput = rowNode.querySelector(".activity-note");
+    const doneBtn = rowNode.querySelector(".set-done");
+
+    const log = getSetLog(store.currentCycle, nav.weekIdx, nav.dayIdx, exIdx, 0);
+    if (log?.note) noteInput.value = log.note;
+    if (log?.done) row.classList.add("is-done");
+
+    const prevNote = findPrevious("note", nav.weekIdx, nav.dayIdx, exIdx, 0);
+    if (prevNote) noteInput.placeholder = `last: ${prevNote}`;
+
+    noteInput.addEventListener("input", () => {
+      setSetLog(store.currentCycle, nav.weekIdx, nav.dayIdx, exIdx, 0, { note: noteInput.value });
+    });
+    doneBtn.addEventListener("click", () => {
+      const nowDone = !row.classList.contains("is-done");
+      row.classList.toggle("is-done", nowDone);
+      setSetLog(store.currentCycle, nav.weekIdx, nav.dayIdx, exIdx, 0, { done: nowDone });
+    });
+    return rowNode;
   }
 
   function dayStats(cycle, weekIdx, dayIdx, day) {
@@ -215,6 +240,12 @@
       node.querySelector(".exercise-target").textContent = ex.target;
       const rowsContainer = node.querySelector(".set-rows");
 
+      if (ex.kind === "activity") {
+        rowsContainer.appendChild(renderActivityRow(exIdx));
+        list.appendChild(node);
+        return;
+      }
+
       for (let setIdx = 0; setIdx < ex.sets; setIdx++) {
         const rowNode = tplSetRow.content.cloneNode(true);
         const row = rowNode.querySelector(".set-row");
@@ -228,7 +259,7 @@
         if (log?.reps != null) repsInput.value = log.reps;
         if (log?.done) row.classList.add("is-done");
 
-        const prevWeight = findPreviousWeight(nav.weekIdx, nav.dayIdx, exIdx, setIdx);
+        const prevWeight = findPrevious("weight", nav.weekIdx, nav.dayIdx, exIdx, setIdx);
         if (prevWeight != null) weightInput.placeholder = `last ${prevWeight}`;
 
         weightInput.addEventListener("input", () => {

@@ -11,7 +11,8 @@
             {
               "name": "Zone 2 cardio: jogging, rowing, cycling, swimming, or hiking. Breathe through your nose when you can.",
               "target": "45 min",
-              "sets": 1
+              "sets": 1,
+              "kind": "activity"
             }
           ]
         },
@@ -21,27 +22,32 @@
             {
               "name": "Barbell squats",
               "target": "4x6",
-              "sets": 4
+              "sets": 4,
+              "kind": "sets"
             },
             {
               "name": "Leg extensions",
               "target": "2x8",
-              "sets": 2
+              "sets": 2,
+              "kind": "sets"
             },
             {
               "name": "Deadlift",
               "target": "4x6",
-              "sets": 4
+              "sets": 4,
+              "kind": "sets"
             },
             {
               "name": "Lying leg curls",
               "target": "2x8",
-              "sets": 2
+              "sets": 2,
+              "kind": "sets"
             },
             {
               "name": "Standing calf raises",
               "target": "3x8",
-              "sets": 3
+              "sets": 3,
+              "kind": "sets"
             }
           ]
         },
@@ -51,7 +57,8 @@
             {
               "name": "Sauna (20 min) followed by an ice bath or cold shower (5 min)",
               "target": "2 rounds",
-              "sets": 1
+              "sets": 1,
+              "kind": "activity"
             }
           ]
         },
@@ -61,42 +68,50 @@
             {
               "name": "Bench press",
               "target": "4x6",
-              "sets": 4
+              "sets": 4,
+              "kind": "sets"
             },
             {
               "name": "Dumbbell flyes",
               "target": "2x10",
-              "sets": 2
+              "sets": 2,
+              "kind": "sets"
             },
             {
               "name": "Pull-ups",
               "target": "4x max",
-              "sets": 4
+              "sets": 4,
+              "kind": "sets"
             },
             {
               "name": "Seated cable rows",
               "target": "2x8",
-              "sets": 2
+              "sets": 2,
+              "kind": "sets"
             },
             {
               "name": "Standing overhead press",
               "target": "4x6",
-              "sets": 4
+              "sets": 4,
+              "kind": "sets"
             },
             {
               "name": "Dumbbell lateral raises",
               "target": "2x10",
-              "sets": 2
+              "sets": 2,
+              "kind": "sets"
             },
             {
               "name": "Neck curls (lying, plate on forehead)",
               "target": "2x15",
-              "sets": 2
+              "sets": 2,
+              "kind": "sets"
             },
             {
               "name": "Lateral neck raises",
               "target": "2x15",
-              "sets": 2
+              "sets": 2,
+              "kind": "sets"
             }
           ]
         },
@@ -106,7 +121,8 @@
             {
               "name": "Moderate-intensity cardio at 75\u201380% effort: running, rowing, cycling, stair climbing, or jump rope, outdoors if possible",
               "target": "35 min",
-              "sets": 1
+              "sets": 1,
+              "kind": "activity"
             }
           ]
         },
@@ -116,7 +132,8 @@
             {
               "name": "All-out sprint for 20 sec, then 10 sec rest, on an assault bike, rower, ski machine, or running sprints",
               "target": "8 rounds",
-              "sets": 1
+              "sets": 1,
+              "kind": "activity"
             }
           ]
         },
@@ -126,42 +143,50 @@
             {
               "name": "Incline dumbbell curls",
               "target": "4x6",
-              "sets": 4
+              "sets": 4,
+              "kind": "sets"
             },
             {
               "name": "Standing barbell curls",
               "target": "2x8",
-              "sets": 2
+              "sets": 2,
+              "kind": "sets"
             },
             {
               "name": "Cable triceps pushdowns",
               "target": "4x6",
-              "sets": 4
+              "sets": 4,
+              "kind": "sets"
             },
             {
               "name": "Overhead dumbbell triceps extensions",
               "target": "2x8",
-              "sets": 2
+              "sets": 2,
+              "kind": "sets"
             },
             {
               "name": "Seated calf raises",
               "target": "3x12",
-              "sets": 3
+              "sets": 3,
+              "kind": "sets"
             },
             {
               "name": "Tibialis raises (wall)",
               "target": "2x20",
-              "sets": 2
+              "sets": 2,
+              "kind": "sets"
             },
             {
               "name": "Neck extensions (harness or plate)",
               "target": "2x15",
-              "sets": 2
+              "sets": 2,
+              "kind": "sets"
             },
             {
               "name": "4-way band neck isometrics",
               "target": "2x15 sec each direction",
-              "sets": 2
+              "sets": 2,
+              "kind": "sets"
             }
           ]
         }
@@ -177,7 +202,8 @@
             {
               "name": "Zone 2 cardio: jogging, rowing, cycling, swimming, or hiking",
               "target": "55 min",
-              "sets": 1
+              "sets": 1,
+              "kind": "activity"
             }
           ]
         },
@@ -187,27 +213,32 @@
             {
               "name": "Barbell squats",
               "target": "4x6",
-              "sets": 4
+              "sets": 4,
+              "kind": "sets"
             },
             {
               "name": "Leg press",
               "target": "2x8",
-              "sets": 2
+              "sets": 2,
+              "kind": "sets"
             },
             {
               "name": "Deadlift",
               "target": "4x6",
-              "sets": 4
+              "sets": 4,
+              "kind": "sets"
             },
             {
               "name": "Hip thrusts",
               "target": "2x8",
-              "sets": 2
+              "sets": 2,
+              "kind": "sets"
             },
             {
               "name": "Standing calf raises",
               "target": "3x8",
-              "sets": 3
+              "sets": 3,
+              "kind": "sets"
             }
           ]
         },
@@ -217,7 +248,8 @@
             {
               "name": "Sauna (20 min) followed by an ice bath or cold shower (5 min)",
               "target": "3 rounds",
-              "sets": 1
+              "sets": 1,
+              "kind": "activity"
             }
           ]
         },
@@ -227,42 +259,50 @@
             {
               "name": "Bench press",
               "target": "4x6",
-              "sets": 4
+              "sets": 4,
+              "kind": "sets"
             },
             {
               "name": "Incline dumbbell press",
               "target": "2x6",
-              "sets": 2
+              "sets": 2,
+              "kind": "sets"
             },
             {
               "name": "Pull-ups",
               "target": "4x max",
-              "sets": 4
+              "sets": 4,
+              "kind": "sets"
             },
             {
               "name": "Single-arm dumbbell rows",
               "target": "2x6 each arm",
-              "sets": 2
+              "sets": 2,
+              "kind": "sets"
             },
             {
               "name": "Standing overhead press",
               "target": "4x6",
-              "sets": 4
+              "sets": 4,
+              "kind": "sets"
             },
             {
               "name": "Rear deltoid flyes",
               "target": "2x8",
-              "sets": 2
+              "sets": 2,
+              "kind": "sets"
             },
             {
               "name": "Neck curls (lying, plate on forehead)",
               "target": "2x15",
-              "sets": 2
+              "sets": 2,
+              "kind": "sets"
             },
             {
               "name": "4-way band neck isometrics",
               "target": "2x15 sec each direction",
-              "sets": 2
+              "sets": 2,
+              "kind": "sets"
             }
           ]
         },
@@ -272,7 +312,8 @@
             {
               "name": "Moderate-intensity cardio at 75\u201380% effort",
               "target": "35 min",
-              "sets": 1
+              "sets": 1,
+              "kind": "activity"
             }
           ]
         },
@@ -282,7 +323,8 @@
             {
               "name": "All-out sprint for 20 sec, then 10 sec rest",
               "target": "10 rounds",
-              "sets": 1
+              "sets": 1,
+              "kind": "activity"
             }
           ]
         },
@@ -292,37 +334,44 @@
             {
               "name": "Incline dumbbell curls",
               "target": "4x6",
-              "sets": 4
+              "sets": 4,
+              "kind": "sets"
             },
             {
               "name": "Hammer curls",
               "target": "2x8",
-              "sets": 2
+              "sets": 2,
+              "kind": "sets"
             },
             {
               "name": "Cable triceps pushdowns",
               "target": "4x6",
-              "sets": 4
+              "sets": 4,
+              "kind": "sets"
             },
             {
               "name": "Skull crushers",
               "target": "2x8",
-              "sets": 2
+              "sets": 2,
+              "kind": "sets"
             },
             {
               "name": "Seated calf raises",
               "target": "3x12",
-              "sets": 3
+              "sets": 3,
+              "kind": "sets"
             },
             {
               "name": "Neck extensions (harness or plate)",
               "target": "2x15",
-              "sets": 2
+              "sets": 2,
+              "kind": "sets"
             },
             {
               "name": "Prone chin tucks",
               "target": "2x12, 3 sec hold",
-              "sets": 2
+              "sets": 2,
+              "kind": "sets"
             }
           ]
         }
@@ -338,7 +387,8 @@
             {
               "name": "Zone 2 cardio: jogging, rowing, cycling, swimming, or hiking. Add a weighted vest or backpack if it feels easy.",
               "target": "65 min",
-              "sets": 1
+              "sets": 1,
+              "kind": "activity"
             }
           ]
         },
@@ -348,27 +398,32 @@
             {
               "name": "Barbell squats",
               "target": "4x6",
-              "sets": 4
+              "sets": 4,
+              "kind": "sets"
             },
             {
               "name": "Weighted walking lunges",
               "target": "2x8 each leg",
-              "sets": 2
+              "sets": 2,
+              "kind": "sets"
             },
             {
               "name": "Deadlift",
               "target": "4x6",
-              "sets": 4
+              "sets": 4,
+              "kind": "sets"
             },
             {
               "name": "Single-leg Romanian deadlift",
               "target": "2x8 each leg",
-              "sets": 2
+              "sets": 2,
+              "kind": "sets"
             },
             {
               "name": "Standing calf raises",
               "target": "3x8",
-              "sets": 3
+              "sets": 3,
+              "kind": "sets"
             }
           ]
         },
@@ -378,7 +433,8 @@
             {
               "name": "Sauna (20 min) followed by an ice bath or cold shower (5 min)",
               "target": "3 rounds",
-              "sets": 1
+              "sets": 1,
+              "kind": "activity"
             }
           ]
         },
@@ -388,42 +444,50 @@
             {
               "name": "Bench press",
               "target": "4x6",
-              "sets": 4
+              "sets": 4,
+              "kind": "sets"
             },
             {
               "name": "Weighted dips",
               "target": "2x8",
-              "sets": 2
+              "sets": 2,
+              "kind": "sets"
             },
             {
               "name": "Pull-ups",
               "target": "4x max",
-              "sets": 4
+              "sets": 4,
+              "kind": "sets"
             },
             {
               "name": "Chest-supported T-bar rows",
               "target": "2x6",
-              "sets": 2
+              "sets": 2,
+              "kind": "sets"
             },
             {
               "name": "Standing overhead press",
               "target": "4x6",
-              "sets": 4
+              "sets": 4,
+              "kind": "sets"
             },
             {
               "name": "Cable lateral raises",
               "target": "2x8 each arm",
-              "sets": 2
+              "sets": 2,
+              "kind": "sets"
             },
             {
               "name": "Neck curls (lying, plate on forehead)",
               "target": "2x15",
-              "sets": 2
+              "sets": 2,
+              "kind": "sets"
             },
             {
               "name": "Banded neck flexion",
               "target": "2x15",
-              "sets": 2
+              "sets": 2,
+              "kind": "sets"
             }
           ]
         },
@@ -433,7 +497,8 @@
             {
               "name": "Moderate-intensity cardio at 75\u201380% effort",
               "target": "35 min",
-              "sets": 1
+              "sets": 1,
+              "kind": "activity"
             }
           ]
         },
@@ -443,7 +508,8 @@
             {
               "name": "All-out sprint for 30 sec, then 10 sec rest",
               "target": "10 rounds",
-              "sets": 1
+              "sets": 1,
+              "kind": "activity"
             }
           ]
         },
@@ -453,42 +519,50 @@
             {
               "name": "Incline dumbbell curls",
               "target": "4x6",
-              "sets": 4
+              "sets": 4,
+              "kind": "sets"
             },
             {
               "name": "Preacher curls",
               "target": "2x6",
-              "sets": 2
+              "sets": 2,
+              "kind": "sets"
             },
             {
               "name": "Cable triceps pushdowns",
               "target": "4x6",
-              "sets": 4
+              "sets": 4,
+              "kind": "sets"
             },
             {
               "name": "Close-grip bench press",
               "target": "2x6",
-              "sets": 2
+              "sets": 2,
+              "kind": "sets"
             },
             {
               "name": "Seated calf raises",
               "target": "3x12",
-              "sets": 3
+              "sets": 3,
+              "kind": "sets"
             },
             {
               "name": "Heel walks",
               "target": "2x30 sec",
-              "sets": 2
+              "sets": 2,
+              "kind": "sets"
             },
             {
               "name": "Neck extensions (harness or plate)",
               "target": "2x15",
-              "sets": 2
+              "sets": 2,
+              "kind": "sets"
             },
             {
               "name": "Lateral neck raises",
               "target": "2x15",
-              "sets": 2
+              "sets": 2,
+              "kind": "sets"
             }
           ]
         }
@@ -504,7 +578,8 @@
             {
               "name": "Zone 2 cardio: jogging, rowing, cycling, swimming, or hiking",
               "target": "75 min",
-              "sets": 1
+              "sets": 1,
+              "kind": "activity"
             }
           ]
         },
@@ -514,27 +589,32 @@
             {
               "name": "Barbell squats",
               "target": "4x6",
-              "sets": 4
+              "sets": 4,
+              "kind": "sets"
             },
             {
               "name": "Bulgarian split squats",
               "target": "2x8 each leg",
-              "sets": 2
+              "sets": 2,
+              "kind": "sets"
             },
             {
               "name": "Deadlift",
               "target": "4x6",
-              "sets": 4
+              "sets": 4,
+              "kind": "sets"
             },
             {
               "name": "Seated leg curls",
               "target": "2x8",
-              "sets": 2
+              "sets": 2,
+              "kind": "sets"
             },
             {
               "name": "Standing calf raises",
               "target": "3x8",
-              "sets": 3
+              "sets": 3,
+              "kind": "sets"
             }
           ]
         },
@@ -544,7 +624,8 @@
             {
               "name": "Sauna (20 min) followed by an ice bath or cold shower (5 min)",
               "target": "4 rounds",
-              "sets": 1
+              "sets": 1,
+              "kind": "activity"
             }
           ]
         },
@@ -554,42 +635,50 @@
             {
               "name": "Bench press",
               "target": "4x6",
-              "sets": 4
+              "sets": 4,
+              "kind": "sets"
             },
             {
               "name": "Decline bench press",
               "target": "2x8",
-              "sets": 2
+              "sets": 2,
+              "kind": "sets"
             },
             {
               "name": "Pull-ups",
               "target": "4x max",
-              "sets": 4
+              "sets": 4,
+              "kind": "sets"
             },
             {
               "name": "Bent-over barbell rows",
               "target": "2x8",
-              "sets": 2
+              "sets": 2,
+              "kind": "sets"
             },
             {
               "name": "Standing overhead press",
               "target": "4x6",
-              "sets": 4
+              "sets": 4,
+              "kind": "sets"
             },
             {
               "name": "Face pulls",
               "target": "3x12",
-              "sets": 3
+              "sets": 3,
+              "kind": "sets"
             },
             {
               "name": "Neck curls (lying, plate on forehead)",
               "target": "2x15",
-              "sets": 2
+              "sets": 2,
+              "kind": "sets"
             },
             {
               "name": "Lateral neck raises with band",
               "target": "2x15 each side",
-              "sets": 2
+              "sets": 2,
+              "kind": "sets"
             }
           ]
         },
@@ -599,7 +688,8 @@
             {
               "name": "Moderate-intensity cardio at 75\u201380% effort",
               "target": "35 min",
-              "sets": 1
+              "sets": 1,
+              "kind": "activity"
             }
           ]
         },
@@ -609,7 +699,8 @@
             {
               "name": "All-out sprint for 30 sec, then 10 sec rest",
               "target": "12 rounds",
-              "sets": 1
+              "sets": 1,
+              "kind": "activity"
             }
           ]
         },
@@ -619,42 +710,50 @@
             {
               "name": "Incline dumbbell curls",
               "target": "4x6",
-              "sets": 4
+              "sets": 4,
+              "kind": "sets"
             },
             {
               "name": "EZ-bar curls",
               "target": "2x8",
-              "sets": 2
+              "sets": 2,
+              "kind": "sets"
             },
             {
               "name": "Cable triceps pushdowns",
               "target": "4x6",
-              "sets": 4
+              "sets": 4,
+              "kind": "sets"
             },
             {
               "name": "Single-arm dumbbell overhead extensions",
               "target": "2x8",
-              "sets": 2
+              "sets": 2,
+              "kind": "sets"
             },
             {
               "name": "Seated calf raises",
               "target": "3x12",
-              "sets": 3
+              "sets": 3,
+              "kind": "sets"
             },
             {
               "name": "Banded tibialis raises",
               "target": "2x20",
-              "sets": 2
+              "sets": 2,
+              "kind": "sets"
             },
             {
               "name": "Neck extensions (harness or plate)",
               "target": "2x15",
-              "sets": 2
+              "sets": 2,
+              "kind": "sets"
             },
             {
               "name": "Dumbbell shrugs",
               "target": "2x8",
-              "sets": 2
+              "sets": 2,
+              "kind": "sets"
             }
           ]
         }

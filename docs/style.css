@@ -189,6 +189,26 @@ ul { list-style: none; margin: 0; padding: 0; }
   border-color: var(--done);
 }
 
+.activity-row {
+  grid-template-columns: 1fr 40px;
+  align-items: start;
+}
+
+.activity-note {
+  font-family: var(--font);
+  font-size: 16px;
+  padding: 7px 8px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--bg);
+  color: var(--ink);
+  width: 100%;
+  min-width: 0;
+  resize: vertical;
+}
+
+.set-row.is-done .activity-note { border-color: var(--done); }
+
 .empty-state {
   color: var(--muted);
   font-size: 14px;

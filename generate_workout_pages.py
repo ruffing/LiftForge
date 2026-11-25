@@ -101,6 +101,14 @@ def infer_set_count(target: str) -> int:
     return 1
 
 
+def infer_kind(target: str) -> str:
+    """Return "sets" for sets x reps targets, "activity" for things like "45 min"."""
+    cleaned = target.strip()
+    if not cleaned or SET_COUNT_RE.match(cleaned) or SET_WORD_RE.match(cleaned):
+        return "sets"
+    return "activity"
+
+
 def build_workout_data(weeks: list[dict[str, Any]], document_title: str) -> dict[str, Any]:
     """Build the JSON-serializable structure consumed by the PWA."""
     return {
@@ -117,6 +125,7 @@ def build_workout_data(weeks: list[dict[str, Any]], document_title: str) -> dict
                                 "name": exercise["name"],
                                 "target": exercise["target"],
                                 "sets": infer_set_count(exercise["target"]),
+                                "kind": infer_kind(exercise["target"]),
                             }
                             for exercise in day["exercises"]
                         ],
