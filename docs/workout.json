@@ -52,8 +52,32 @@
           ]
         },
         {
-          "name": "Tuesday \u2014 Heat & Cold Recovery",
+          "name": "Tuesday \u2014 Core + Heat & Cold Recovery",
           "exercises": [
+            {
+              "name": "Leg raises",
+              "target": "3x12",
+              "sets": 3,
+              "kind": "sets"
+            },
+            {
+              "name": "Weighted Russian twists",
+              "target": "3x10 each side",
+              "sets": 3,
+              "kind": "sets"
+            },
+            {
+              "name": "Plank",
+              "target": "3x30 sec",
+              "sets": 3,
+              "kind": "sets"
+            },
+            {
+              "name": "Hand walkouts",
+              "target": "3x6",
+              "sets": 3,
+              "kind": "sets"
+            },
             {
               "name": "Sauna (20 min) followed by an ice bath or cold shower (5 min)",
               "target": "2 rounds",
@@ -116,13 +140,37 @@
           ]
         },
         {
-          "name": "Thursday \u2014 Cardiovascular Training",
+          "name": "Thursday \u2014 Cardio + Core",
           "exercises": [
             {
               "name": "Moderate-intensity cardio at 75\u201380% effort: running, rowing, cycling, stair climbing, or jump rope, outdoors if possible",
               "target": "35 min",
               "sets": 1,
               "kind": "activity"
+            },
+            {
+              "name": "Crunch machine",
+              "target": "3x12",
+              "sets": 3,
+              "kind": "sets"
+            },
+            {
+              "name": "Spiderman plank",
+              "target": "3x10 sec each side",
+              "sets": 3,
+              "kind": "sets"
+            },
+            {
+              "name": "Side plank",
+              "target": "3x30 sec each side",
+              "sets": 3,
+              "kind": "sets"
+            },
+            {
+              "name": "Suitcase carry",
+              "target": "3x30 m each side",
+              "sets": 3,
+              "kind": "sets"
             }
           ]
         },
@@ -243,8 +291,32 @@
           ]
         },
         {
-          "name": "Tuesday \u2014 Heat & Cold Recovery",
+          "name": "Tuesday \u2014 Core + Heat & Cold Recovery",
           "exercises": [
+            {
+              "name": "Hanging knee raises",
+              "target": "3x12",
+              "sets": 3,
+              "kind": "sets"
+            },
+            {
+              "name": "Pallof press",
+              "target": "3x10 each side",
+              "sets": 3,
+              "kind": "sets"
+            },
+            {
+              "name": "Weighted back extensions",
+              "target": "3x10",
+              "sets": 3,
+              "kind": "sets"
+            },
+            {
+              "name": "Dead bugs",
+              "target": "3x10 each side",
+              "sets": 3,
+              "kind": "sets"
+            },
             {
               "name": "Sauna (20 min) followed by an ice bath or cold shower (5 min)",
               "target": "3 rounds",
@@ -307,13 +379,37 @@
           ]
         },
         {
-          "name": "Thursday \u2014 Cardiovascular Training",
+          "name": "Thursday \u2014 Cardio + Core",
           "exercises": [
             {
               "name": "Moderate-intensity cardio at 75\u201380% effort",
               "target": "35 min",
               "sets": 1,
               "kind": "activity"
+            },
+            {
+              "name": "Cable crunches",
+              "target": "3x12",
+              "sets": 3,
+              "kind": "sets"
+            },
+            {
+              "name": "Bird dogs",
+              "target": "3x8 each side",
+              "sets": 3,
+              "kind": "sets"
+            },
+            {
+              "name": "Side plank",
+              "target": "3x30 sec each side",
+              "sets": 3,
+              "kind": "sets"
+            },
+            {
+              "name": "Farmer's carry",
+              "target": "3x40 m",
+              "sets": 3,
+              "kind": "sets"
             }
           ]
         },
@@ -428,8 +524,32 @@
           ]
         },
         {
-          "name": "Tuesday \u2014 Heat & Cold Recovery",
+          "name": "Tuesday \u2014 Core + Heat & Cold Recovery",
           "exercises": [
+            {
+              "name": "Leg raises",
+              "target": "3x15",
+              "sets": 3,
+              "kind": "sets"
+            },
+            {
+              "name": "Weighted Russian twists",
+              "target": "3x12 each side",
+              "sets": 3,
+              "kind": "sets"
+            },
+            {
+              "name": "Plank",
+              "target": "3x45 sec",
+              "sets": 3,
+              "kind": "sets"
+            },
+            {
+              "name": "Ab wheel rollouts",
+              "target": "3x8",
+              "sets": 3,
+              "kind": "sets"
+            },
             {
               "name": "Sauna (20 min) followed by an ice bath or cold shower (5 min)",
               "target": "3 rounds",
@@ -492,13 +612,37 @@
           ]
         },
         {
-          "name": "Thursday \u2014 Cardiovascular Training",
+          "name": "Thursday \u2014 Cardio + Core",
           "exercises": [
             {
               "name": "Moderate-intensity cardio at 75\u201380% effort",
               "target": "35 min",
               "sets": 1,
               "kind": "activity"
+            },
+            {
+              "name": "Crunch machine",
+              "target": "3x15",
+              "sets": 3,
+              "kind": "sets"
+            },
+            {
+              "name": "Spiderman plank",
+              "target": "3x15 sec each side",
+              "sets": 3,
+              "kind": "sets"
+            },
+            {
+              "name": "Copenhagen side plank",
+              "target": "3x20 sec each side",
+              "sets": 3,
+              "kind": "sets"
+            },
+            {
+              "name": "Suitcase carry",
+              "target": "3x30 m each side",
+              "sets": 3,
+              "kind": "sets"
             }
           ]
         },
@@ -619,8 +763,32 @@
           ]
         },
         {
-          "name": "Tuesday \u2014 Heat & Cold Recovery",
+          "name": "Tuesday \u2014 Core + Heat & Cold Recovery",
           "exercises": [
+            {
+              "name": "Hanging leg raises",
+              "target": "3x10",
+              "sets": 3,
+              "kind": "sets"
+            },
+            {
+              "name": "Cable woodchops",
+              "target": "3x10 each side",
+              "sets": 3,
+              "kind": "sets"
+            },
+            {
+              "name": "Hollow body hold",
+              "target": "3x30 sec",
+              "sets": 3,
+              "kind": "sets"
+            },
+            {
+              "name": "Hand walkouts",
+              "target": "3x8",
+              "sets": 3,
+              "kind": "sets"
+            },
             {
               "name": "Sauna (20 min) followed by an ice bath or cold shower (5 min)",
               "target": "4 rounds",
@@ -683,13 +851,37 @@
           ]
         },
         {
-          "name": "Thursday \u2014 Cardiovascular Training",
+          "name": "Thursday \u2014 Cardio + Core",
           "exercises": [
             {
               "name": "Moderate-intensity cardio at 75\u201380% effort",
               "target": "35 min",
               "sets": 1,
               "kind": "activity"
+            },
+            {
+              "name": "Weighted back extensions",
+              "target": "3x10",
+              "sets": 3,
+              "kind": "sets"
+            },
+            {
+              "name": "Decline sit-ups",
+              "target": "3x12",
+              "sets": 3,
+              "kind": "sets"
+            },
+            {
+              "name": "Side plank",
+              "target": "3x45 sec each side",
+              "sets": 3,
+              "kind": "sets"
+            },
+            {
+              "name": "Suitcase carry",
+              "target": "3x40 m each side",
+              "sets": 3,
+              "kind": "sets"
             }
           ]
         },

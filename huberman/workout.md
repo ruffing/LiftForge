@@ -12,9 +12,13 @@
 4. Lying leg curls — **2x8**
 5. Standing calf raises — **3x8**
 
-### Tuesday — Heat & Cold Recovery
+### Tuesday — Core + Heat & Cold Recovery
 
-1. Sauna (20 min) followed by an ice bath or cold shower (5 min) — **2 rounds**
+1. Leg raises — **3x12**
+2. Weighted Russian twists — **3x10 each side**
+3. Plank — **3x30 sec**
+4. Hand walkouts — **3x6**
+5. Sauna (20 min) followed by an ice bath or cold shower (5 min) — **2 rounds**
 
 ### Wednesday — Torso & Neck
 
@@ -27,9 +31,13 @@
 7. Neck curls (lying, plate on forehead) — **2x15**
 8. Lateral neck raises — **2x15**
 
-### Thursday — Cardiovascular Training
+### Thursday — Cardio + Core
 
 1. Moderate-intensity cardio at 75–80% effort: running, rowing, cycling, stair climbing, or jump rope, outdoors if possible — **35 min**
+2. Crunch machine — **3x12**
+3. Spiderman plank — **3x10 sec each side**
+4. Side plank — **3x30 sec each side**
+5. Suitcase carry — **3x30 m each side**
 
 ### Friday — HIIT
 
@@ -62,9 +70,13 @@
 4. Hip thrusts — **2x8**
 5. Standing calf raises — **3x8**
 
-### Tuesday — Heat & Cold Recovery
+### Tuesday — Core + Heat & Cold Recovery
 
-1. Sauna (20 min) followed by an ice bath or cold shower (5 min) — **3 rounds**
+1. Hanging knee raises — **3x12**
+2. Pallof press — **3x10 each side**
+3. Weighted back extensions — **3x10**
+4. Dead bugs — **3x10 each side**
+5. Sauna (20 min) followed by an ice bath or cold shower (5 min) — **3 rounds**
 
 ### Wednesday — Torso & Neck
 
@@ -77,9 +89,13 @@
 7. Neck curls (lying, plate on forehead) — **2x15**
 8. 4-way band neck isometrics — **2x15 sec each direction**
 
-### Thursday — Cardiovascular Training
+### Thursday — Cardio + Core
 
 1. Moderate-intensity cardio at 75–80% effort — **35 min**
+2. Cable crunches — **3x12**
+3. Bird dogs — **3x8 each side**
+4. Side plank — **3x30 sec each side**
+5. Farmer's carry — **3x40 m**
 
 ### Friday — HIIT
 
@@ -111,9 +127,13 @@
 4. Single-leg Romanian deadlift — **2x8 each leg**
 5. Standing calf raises — **3x8**
 
-### Tuesday — Heat & Cold Recovery
+### Tuesday — Core + Heat & Cold Recovery
 
-1. Sauna (20 min) followed by an ice bath or cold shower (5 min) — **3 rounds**
+1. Leg raises — **3x15**
+2. Weighted Russian twists — **3x12 each side**
+3. Plank — **3x45 sec**
+4. Ab wheel rollouts — **3x8**
+5. Sauna (20 min) followed by an ice bath or cold shower (5 min) — **3 rounds**
 
 ### Wednesday — Torso & Neck
 
@@ -126,9 +146,13 @@
 7. Neck curls (lying, plate on forehead) — **2x15**
 8. Banded neck flexion — **2x15**
 
-### Thursday — Cardiovascular Training
+### Thursday — Cardio + Core
 
 1. Moderate-intensity cardio at 75–80% effort — **35 min**
+2. Crunch machine — **3x15**
+3. Spiderman plank — **3x15 sec each side**
+4. Copenhagen side plank — **3x20 sec each side**
+5. Suitcase carry — **3x30 m each side**
 
 ### Friday — HIIT
 
@@ -161,9 +185,13 @@
 4. Seated leg curls — **2x8**
 5. Standing calf raises — **3x8**
 
-### Tuesday — Heat & Cold Recovery
+### Tuesday — Core + Heat & Cold Recovery
 
-1. Sauna (20 min) followed by an ice bath or cold shower (5 min) — **4 rounds**
+1. Hanging leg raises — **3x10**
+2. Cable woodchops — **3x10 each side**
+3. Hollow body hold — **3x30 sec**
+4. Hand walkouts — **3x8**
+5. Sauna (20 min) followed by an ice bath or cold shower (5 min) — **4 rounds**
 
 ### Wednesday — Torso & Neck
 
@@ -176,9 +204,13 @@
 7. Neck curls (lying, plate on forehead) — **2x15**
 8. Lateral neck raises with band — **2x15 each side**
 
-### Thursday — Cardiovascular Training
+### Thursday — Cardio + Core
 
 1. Moderate-intensity cardio at 75–80% effort — **35 min**
+2. Weighted back extensions — **3x10**
+3. Decline sit-ups — **3x12**
+4. Side plank — **3x45 sec each side**
+5. Suitcase carry — **3x40 m each side**
 
 ### Friday — HIIT
 
